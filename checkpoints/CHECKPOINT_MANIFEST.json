@@ -1,0 +1,1356 @@
+{
+  "carrier_artifact_count": 114,
+  "carrier_artifacts": [
+    {
+      "consumers": [
+        "rank profile",
+        "addressable controls"
+      ],
+      "group": "development",
+      "path": "checkpoints/carriers/velocity/development_seed_291101.npz",
+      "seed": 291101,
+      "sha256": "7304712498BC6EBD37BEB7B502D828563A3B82F102CF3EE35EE8CAAC631D99A1",
+      "size_bytes": 23309,
+      "type": "velocity carrier fit"
+    },
+    {
+      "consumers": [
+        "intervention specificity"
+      ],
+      "group": "development",
+      "path": "checkpoints/carriers/position/development_seed_291101.npz",
+      "seed": 291101,
+      "sha256": "9FAB398DC771BF11C1789EDF4377361E3DFF4D5C3F743EB77A8639B58518E12D",
+      "size_bytes": 26697,
+      "type": "position carrier fit"
+    },
+    {
+      "consumers": [
+        "rank profile",
+        "addressable controls"
+      ],
+      "group": "development",
+      "path": "checkpoints/carriers/velocity/development_seed_291102.npz",
+      "seed": 291102,
+      "sha256": "5F83C46C945CFF14247CBF95238649437067A17B726DD08A15717650B223131D",
+      "size_bytes": 24165,
+      "type": "velocity carrier fit"
+    },
+    {
+      "consumers": [
+        "intervention specificity"
+      ],
+      "group": "development",
+      "path": "checkpoints/carriers/position/development_seed_291102.npz",
+      "seed": 291102,
+      "sha256": "E575FE8020B065F3D325D0919BA497CAA306D429CC3FD0094B138F155F3021B7",
+      "size_bytes": 25705,
+      "type": "position carrier fit"
+    },
+    {
+      "consumers": [
+        "rank profile",
+        "addressable controls"
+      ],
+      "group": "development",
+      "path": "checkpoints/carriers/velocity/development_seed_291103.npz",
+      "seed": 291103,
+      "sha256": "F28327E60B7B63D547EEF8F5EAAE3C5CE189F515B636F6446F018860FF44BD9E",
+      "size_bytes": 23469,
+      "type": "velocity carrier fit"
+    },
+    {
+      "consumers": [
+        "intervention specificity"
+      ],
+      "group": "development",
+      "path": "checkpoints/carriers/position/development_seed_291103.npz",
+      "seed": 291103,
+      "sha256": "A98E729755ACE4A75464E63D89944B7687CBB8A56802CD19AA8369BA75AAA188",
+      "size_bytes": 26529,
+      "type": "position carrier fit"
+    },
+    {
+      "consumers": [
+        "addressable carrier replication"
+      ],
+      "group": "replication",
+      "path": "checkpoints/carriers/velocity/replication_seed_291301.npz",
+      "seed": 291301,
+      "sha256": "D7D41D3F8595223CE2D3CD1DAD744BB6EFAC7DB66E378B30FB7848B9051610C6",
+      "size_bytes": 23645,
+      "type": "velocity carrier fit"
+    },
+    {
+      "consumers": [
+        "addressable carrier replication"
+      ],
+      "group": "replication",
+      "path": "checkpoints/carriers/velocity/replication_seed_291302.npz",
+      "seed": 291302,
+      "sha256": "1250917A8B72748FF7E2E987FF481E68F517933617AF63D6150E5E3D03CBF443",
+      "size_bytes": 24216,
+      "type": "velocity carrier fit"
+    },
+    {
+      "consumers": [
+        "addressable carrier replication"
+      ],
+      "group": "replication",
+      "path": "checkpoints/carriers/velocity/replication_seed_291303.npz",
+      "seed": 291303,
+      "sha256": "63578C062CE05669B39B67B9AFD9A211D58A1450BEC89DFF78183D841F93FDA3",
+      "size_bytes": 23514,
+      "type": "velocity carrier fit"
+    },
+    {
+      "anchor": 5,
+      "consumers": [
+        "temporal stability"
+      ],
+      "path": "checkpoints/carriers/temporal/seed_291301_anchor_5.npz",
+      "seed": 291301,
+      "sha256": "5F51501A6CA0943DE39D63E0DF354852A5BBFD46AFE7AD3A7368CEDD56140030",
+      "size_bytes": 2609,
+      "type": "temporal carrier fit"
+    },
+    {
+      "anchor": 6,
+      "consumers": [
+        "temporal stability"
+      ],
+      "path": "checkpoints/carriers/temporal/seed_291301_anchor_6.npz",
+      "seed": 291301,
+      "sha256": "DC76C1DAD9A808617049D7117DE808E4978B955022A81CC47E48874771465E4A",
+      "size_bytes": 2627,
+      "type": "temporal carrier fit"
+    },
+    {
+      "anchor": 7,
+      "consumers": [
+        "temporal stability"
+      ],
+      "path": "checkpoints/carriers/temporal/seed_291301_anchor_7.npz",
+      "seed": 291301,
+      "sha256": "90427C2FF448DE3AA967E94525A92D12B56D4DF281C48D56F82D61EF3D0517B2",
+      "size_bytes": 2606,
+      "type": "temporal carrier fit"
+    },
+    {
+      "anchor": 8,
+      "consumers": [
+        "temporal stability"
+      ],
+      "path": "checkpoints/carriers/temporal/seed_291301_anchor_8.npz",
+      "seed": 291301,
+      "sha256": "99EEBD5F3E308326F9C6EF4DD9AFB65D27D3492A2FA259DBFD09C338ADF0E318",
+      "size_bytes": 2646,
+      "type": "temporal carrier fit"
+    },
+    {
+      "anchor": 9,
+      "consumers": [
+        "temporal stability"
+      ],
+      "path": "checkpoints/carriers/temporal/seed_291301_anchor_9.npz",
+      "seed": 291301,
+      "sha256": "BD1325D0BC9C8375571B332CC230F98B34EEB3AD3EE7FB6D149364C19A7B205E",
+      "size_bytes": 2673,
+      "type": "temporal carrier fit"
+    },
+    {
+      "anchor": 5,
+      "consumers": [
+        "temporal stability"
+      ],
+      "path": "checkpoints/carriers/temporal/seed_291302_anchor_5.npz",
+      "seed": 291302,
+      "sha256": "F913251A99AECF42C19C3C4398E91C6168CD3F158E6ECAB06641C5C31BF665B9",
+      "size_bytes": 2681,
+      "type": "temporal carrier fit"
+    },
+    {
+      "anchor": 6,
+      "consumers": [
+        "temporal stability"
+      ],
+      "path": "checkpoints/carriers/temporal/seed_291302_anchor_6.npz",
+      "seed": 291302,
+      "sha256": "5F0DDB64FA463B1C753BAEA2B4F9565660DBEF97B7F660838C8F770FB54A9CDC",
+      "size_bytes": 2662,
+      "type": "temporal carrier fit"
+    },
+    {
+      "anchor": 7,
+      "consumers": [
+        "temporal stability"
+      ],
+      "path": "checkpoints/carriers/temporal/seed_291302_anchor_7.npz",
+      "seed": 291302,
+      "sha256": "00CA38C23B33E0EC3C2A37EF25B323F8567371162662A5374C07889E7DF603B6",
+      "size_bytes": 2743,
+      "type": "temporal carrier fit"
+    },
+    {
+      "anchor": 8,
+      "consumers": [
+        "temporal stability"
+      ],
+      "path": "checkpoints/carriers/temporal/seed_291302_anchor_8.npz",
+      "seed": 291302,
+      "sha256": "8CB33F4BBD06E9556CB27F37BE7D6AB81BB2F0221266D6EBBA9BBD166D6F23EE",
+      "size_bytes": 2741,
+      "type": "temporal carrier fit"
+    },
+    {
+      "anchor": 9,
+      "consumers": [
+        "temporal stability"
+      ],
+      "path": "checkpoints/carriers/temporal/seed_291302_anchor_9.npz",
+      "seed": 291302,
+      "sha256": "B12FEECC9A43C32DA77DA51DCDE8D16DFB3BB9C8FBDC72B499D3ED14198551A6",
+      "size_bytes": 2660,
+      "type": "temporal carrier fit"
+    },
+    {
+      "anchor": 5,
+      "consumers": [
+        "temporal stability"
+      ],
+      "path": "checkpoints/carriers/temporal/seed_291303_anchor_5.npz",
+      "seed": 291303,
+      "sha256": "FDE1F7ECFED464B8D694885AA7BC0D11FBFB0BC3FC70626CBD179AF8E034E328",
+      "size_bytes": 2621,
+      "type": "temporal carrier fit"
+    },
+    {
+      "anchor": 6,
+      "consumers": [
+        "temporal stability"
+      ],
+      "path": "checkpoints/carriers/temporal/seed_291303_anchor_6.npz",
+      "seed": 291303,
+      "sha256": "443CED0FD72EBC4ECF0E1102621951735BAFC9A1C2F63BF5A1F876E986BE17CF",
+      "size_bytes": 2549,
+      "type": "temporal carrier fit"
+    },
+    {
+      "anchor": 7,
+      "consumers": [
+        "temporal stability"
+      ],
+      "path": "checkpoints/carriers/temporal/seed_291303_anchor_7.npz",
+      "seed": 291303,
+      "sha256": "70C18B43F24C01EAF8B569CCDD5013D103FFDEA332A48F68D702776BCD95E49E",
+      "size_bytes": 2620,
+      "type": "temporal carrier fit"
+    },
+    {
+      "anchor": 8,
+      "consumers": [
+        "temporal stability"
+      ],
+      "path": "checkpoints/carriers/temporal/seed_291303_anchor_8.npz",
+      "seed": 291303,
+      "sha256": "65C62DCE1A625D47943284A5038B10AF3F1EB4715C669EF624F1577748BE8747",
+      "size_bytes": 2557,
+      "type": "temporal carrier fit"
+    },
+    {
+      "anchor": 9,
+      "consumers": [
+        "temporal stability"
+      ],
+      "path": "checkpoints/carriers/temporal/seed_291303_anchor_9.npz",
+      "seed": 291303,
+      "sha256": "DAB841E794E704A0EE85ADA3096B46F263CB52C54101CB31DA84B715D33F1EB0",
+      "size_bytes": 2665,
+      "type": "temporal carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 1,
+      "path": "checkpoints/carriers/event_phase/event_fit_001.npz",
+      "seed": 291101,
+      "sha256": "6D42E69DC5CA0AD938C2BB0CC27365DA84BDA48118044A9A039854A8A9C3E258",
+      "size_bytes": 14173,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 2,
+      "path": "checkpoints/carriers/event_phase/event_fit_002.npz",
+      "seed": 291101,
+      "sha256": "27A11AA88D443CFB31F5166C40A94662E103248DD0C30446975B1820147C597F",
+      "size_bytes": 14222,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 3,
+      "path": "checkpoints/carriers/event_phase/event_fit_003.npz",
+      "seed": 291101,
+      "sha256": "B73F080C2271FCBC29A7A75BAE83420543A8568DF2A877CDE293BC0E202A7353",
+      "size_bytes": 14320,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 4,
+      "path": "checkpoints/carriers/event_phase/event_fit_004.npz",
+      "seed": 291101,
+      "sha256": "06A9E6721CFF73E5188C58AF9DFBF1DD1A5C4729AD77C260125042640A65F937",
+      "size_bytes": 14302,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 5,
+      "path": "checkpoints/carriers/event_phase/event_fit_005.npz",
+      "seed": 291102,
+      "sha256": "7035639B3FBB10B2DE765C7BB7904EB8F3AB513ADAD36CA8AFC135689B4D8B8E",
+      "size_bytes": 14266,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 6,
+      "path": "checkpoints/carriers/event_phase/event_fit_006.npz",
+      "seed": 291102,
+      "sha256": "B60397D1B136C00519A587BD8408EBF69A805F41888DC5FC45F2D956EE4C734A",
+      "size_bytes": 14246,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 7,
+      "path": "checkpoints/carriers/event_phase/event_fit_007.npz",
+      "seed": 291102,
+      "sha256": "EAE71A6FFD4B56EC836581CF554CB1F35BE8A789C795B102BCF25A897193E8F1",
+      "size_bytes": 14220,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 8,
+      "path": "checkpoints/carriers/event_phase/event_fit_008.npz",
+      "seed": 291102,
+      "sha256": "C382C5858B32D50B3A3375E9BFA9CEA576727307396C9DDEE8FC7678F5A9FEE2",
+      "size_bytes": 14225,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 9,
+      "path": "checkpoints/carriers/event_phase/event_fit_009.npz",
+      "seed": 291103,
+      "sha256": "335D8148DEA357483D44E2F4D47EEF45F325EF0ABB626E4B0D6886152C40C3FF",
+      "size_bytes": 14269,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 10,
+      "path": "checkpoints/carriers/event_phase/event_fit_010.npz",
+      "seed": 291103,
+      "sha256": "2261D1C38A5EEB5F83FBE778B4DF78D3525EE89D4B6C69DF29B3E6F789559FB5",
+      "size_bytes": 14294,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 11,
+      "path": "checkpoints/carriers/event_phase/event_fit_011.npz",
+      "seed": 291103,
+      "sha256": "382363E0604161061173F21E495A736571FDA63DAEFABA43E251B1ADB4EBA27B",
+      "size_bytes": 14267,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 12,
+      "path": "checkpoints/carriers/event_phase/event_fit_012.npz",
+      "seed": 291103,
+      "sha256": "FA10B91A40A015D859F5F7C6627113F5D9CAEC5C66D36D073C09AAFF896E2532",
+      "size_bytes": 14204,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 13,
+      "path": "checkpoints/carriers/event_phase/event_fit_013.npz",
+      "seed": 291101,
+      "sha256": "EFB2D730F8329F4B224C964E23D8374FE2E3C70AB6D87169BB354E2BA5E3404F",
+      "size_bytes": 11180,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 14,
+      "path": "checkpoints/carriers/event_phase/event_fit_014.npz",
+      "seed": 291101,
+      "sha256": "303C70663996A228B33515E1DB446CEC414CE67A370404A1DAA0A75F17C653F4",
+      "size_bytes": 11191,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 15,
+      "path": "checkpoints/carriers/event_phase/event_fit_015.npz",
+      "seed": 291101,
+      "sha256": "608A428CF9CC391E5F509AE9615189E407A4FCA50018602DA946A08A298E3BB7",
+      "size_bytes": 11108,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 16,
+      "path": "checkpoints/carriers/event_phase/event_fit_016.npz",
+      "seed": 291101,
+      "sha256": "E09EC5E1D4B0531B9E2C475C105BC7B8A3B1C9CD3A71935B1AF0AFCB9287489B",
+      "size_bytes": 11153,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 17,
+      "path": "checkpoints/carriers/event_phase/event_fit_017.npz",
+      "seed": 291101,
+      "sha256": "A5B21204004A3B4876FCDBE2E36913F019947124493B374011A968ABD44A0648",
+      "size_bytes": 11220,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 18,
+      "path": "checkpoints/carriers/event_phase/event_fit_018.npz",
+      "seed": 291101,
+      "sha256": "81BF8844428F8CAD67511F7BEB8348754DF909A2ED6737B95ADC64A9FE198D3F",
+      "size_bytes": 11264,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 19,
+      "path": "checkpoints/carriers/event_phase/event_fit_019.npz",
+      "seed": 291101,
+      "sha256": "EA73AB360914E7F6179D3722583599E255549C921995FF56A3C962E51DA9419B",
+      "size_bytes": 11246,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 20,
+      "path": "checkpoints/carriers/event_phase/event_fit_020.npz",
+      "seed": 291101,
+      "sha256": "6AD53521D9E0038BA0A42146B6840FDBB43C9AF9F1BCF681F0F65868BD86685A",
+      "size_bytes": 11185,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 21,
+      "path": "checkpoints/carriers/event_phase/event_fit_021.npz",
+      "seed": 291102,
+      "sha256": "8934EDFCA611C54B1EEE954232B400818C92A7B2BAB565652AFB68B269C51106",
+      "size_bytes": 11083,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 22,
+      "path": "checkpoints/carriers/event_phase/event_fit_022.npz",
+      "seed": 291102,
+      "sha256": "F8C4D12AFE23022663ADD700F4D00DBFBDD4E9320010D1373FE51A10C23D01D9",
+      "size_bytes": 11265,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 23,
+      "path": "checkpoints/carriers/event_phase/event_fit_023.npz",
+      "seed": 291102,
+      "sha256": "AD0AFEDB555356C33BD5CC8603FA6728024E19E38921269DEDBD5F1E73D3A899",
+      "size_bytes": 11136,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 24,
+      "path": "checkpoints/carriers/event_phase/event_fit_024.npz",
+      "seed": 291102,
+      "sha256": "4224035536015540A695D1295E145B04DC7A603E949B6357AF17F03A00F4DB81",
+      "size_bytes": 11188,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 25,
+      "path": "checkpoints/carriers/event_phase/event_fit_025.npz",
+      "seed": 291102,
+      "sha256": "1D03AE2EEA4E0A19ECFD45CB1368F4FDB7D856476796386C50E809770CEF8A62",
+      "size_bytes": 11201,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 26,
+      "path": "checkpoints/carriers/event_phase/event_fit_026.npz",
+      "seed": 291102,
+      "sha256": "4B603AC93A55D7F9AD5B9D17F7020B26FEE392AA6D2990A513E2B1E24D83880A",
+      "size_bytes": 11186,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 27,
+      "path": "checkpoints/carriers/event_phase/event_fit_027.npz",
+      "seed": 291102,
+      "sha256": "232378913DB6B2FE87E0173AB7D4703C8DD8F12FDB76CBE9BCC28004A021656B",
+      "size_bytes": 11142,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 28,
+      "path": "checkpoints/carriers/event_phase/event_fit_028.npz",
+      "seed": 291102,
+      "sha256": "E339E2690694350878328EB8065D866EFB6CF210C1AA8B30CF6610FD5D880E96",
+      "size_bytes": 11096,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 29,
+      "path": "checkpoints/carriers/event_phase/event_fit_029.npz",
+      "seed": 291103,
+      "sha256": "7EBD1F29628CDA61F6DACB91B4099299AA983D0C6D3B1D857810D2DAA59EC7F3",
+      "size_bytes": 11141,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 30,
+      "path": "checkpoints/carriers/event_phase/event_fit_030.npz",
+      "seed": 291103,
+      "sha256": "D46769B364CAA06D4872E71B059B3567773D3CE6489C1691D880DCDF9DB651E1",
+      "size_bytes": 11248,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 31,
+      "path": "checkpoints/carriers/event_phase/event_fit_031.npz",
+      "seed": 291103,
+      "sha256": "64E0D30A166CE8B5183BA0E260A9AD8F10F7E4AFB244D78C82D929382E861525",
+      "size_bytes": 11243,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 32,
+      "path": "checkpoints/carriers/event_phase/event_fit_032.npz",
+      "seed": 291103,
+      "sha256": "4E80EFA5EFD4AAC36444BFDC1DF1B91F48C69F2DA952B454215E1B6A4FAB9639",
+      "size_bytes": 11220,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 33,
+      "path": "checkpoints/carriers/event_phase/event_fit_033.npz",
+      "seed": 291103,
+      "sha256": "EB12F8BE9986224B8395855D83FD7A6382954C46F63D8016C57E37D749D8DFEA",
+      "size_bytes": 11204,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 34,
+      "path": "checkpoints/carriers/event_phase/event_fit_034.npz",
+      "seed": 291103,
+      "sha256": "764BCA87186678797EAB694F4E6FE45EC1821C449054AFE828DCE7826B7AE84D",
+      "size_bytes": 11192,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 35,
+      "path": "checkpoints/carriers/event_phase/event_fit_035.npz",
+      "seed": 291103,
+      "sha256": "32B6894C107E534C288F8B892CBE5CEED383DBA9DFF218781472837D336C9CC4",
+      "size_bytes": 11163,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 36,
+      "path": "checkpoints/carriers/event_phase/event_fit_036.npz",
+      "seed": 291103,
+      "sha256": "E4156B27D916E327C0C0EF55BF1DA2C5365553051332FFF6085BC3AF5A7C8CFE",
+      "size_bytes": 11161,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 37,
+      "path": "checkpoints/carriers/event_phase/event_fit_037.npz",
+      "seed": 291101,
+      "sha256": "82011CB2D254A75BADC003828B64C4D479FB08CC8AB4C4D73D07BE02879EC431",
+      "size_bytes": 14230,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 38,
+      "path": "checkpoints/carriers/event_phase/event_fit_038.npz",
+      "seed": 291101,
+      "sha256": "5A78BC2D4C64C88AC3EC5E491D56D0D7EFAD07C6865BD6A3E4B726E1D93D713C",
+      "size_bytes": 14197,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 39,
+      "path": "checkpoints/carriers/event_phase/event_fit_039.npz",
+      "seed": 291101,
+      "sha256": "EE26096B1FFB85D9DD81BB844EB64C5A9A35193ABB999F1075C045F086256874",
+      "size_bytes": 14219,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 40,
+      "path": "checkpoints/carriers/event_phase/event_fit_040.npz",
+      "seed": 291101,
+      "sha256": "62AC2A4D4164C4F6194D2D4864C95D7E58DB94F184ECD6172C7A930AFA12F27A",
+      "size_bytes": 14250,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 41,
+      "path": "checkpoints/carriers/event_phase/event_fit_041.npz",
+      "seed": 291101,
+      "sha256": "480EAFB014AE98A8C8D389525D52A6ECD64984BD6781C6219DA3BD2B2C66A04F",
+      "size_bytes": 14263,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 42,
+      "path": "checkpoints/carriers/event_phase/event_fit_042.npz",
+      "seed": 291101,
+      "sha256": "D785B7F5BD5A513ADA0FAAD144FC21CCCACDAF30510FA6006E81F141FEAED2EB",
+      "size_bytes": 14360,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 43,
+      "path": "checkpoints/carriers/event_phase/event_fit_043.npz",
+      "seed": 291102,
+      "sha256": "73F17D1DA7ECD62886D779C786E9969CEB6BF833F032E7662C52F9924F4A76C1",
+      "size_bytes": 14300,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 44,
+      "path": "checkpoints/carriers/event_phase/event_fit_044.npz",
+      "seed": 291102,
+      "sha256": "F35A188FD1A11E495EF41132E03B5E91EE04396F3AEB4B7FC43C5C3E174E1FCA",
+      "size_bytes": 14240,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 45,
+      "path": "checkpoints/carriers/event_phase/event_fit_045.npz",
+      "seed": 291102,
+      "sha256": "987EE1F5203B99CEC370A2FCDD69FF4FE851FCA2A9A8073958EE9D29FE6FCBE4",
+      "size_bytes": 14248,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 46,
+      "path": "checkpoints/carriers/event_phase/event_fit_046.npz",
+      "seed": 291102,
+      "sha256": "B14AA085D29056BDD85253383A0A7C8D6FBEF0B80F58F6529AF72DBF5723C53E",
+      "size_bytes": 14253,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 47,
+      "path": "checkpoints/carriers/event_phase/event_fit_047.npz",
+      "seed": 291102,
+      "sha256": "F8E0F635D7F689D0CAB10E75A417B606D2299322DC41674CCBC975F2365AE6C4",
+      "size_bytes": 14290,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 48,
+      "path": "checkpoints/carriers/event_phase/event_fit_048.npz",
+      "seed": 291102,
+      "sha256": "E1AC0185828F715841E8EA75D429F09B930884935D6783A46E017B58A7C2711D",
+      "size_bytes": 14302,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 49,
+      "path": "checkpoints/carriers/event_phase/event_fit_049.npz",
+      "seed": 291103,
+      "sha256": "C33AB6942D64C462543A19F605594ED6FBA1F6FB228F4E21783513EF0FEC6C6B",
+      "size_bytes": 14282,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 50,
+      "path": "checkpoints/carriers/event_phase/event_fit_050.npz",
+      "seed": 291103,
+      "sha256": "6D91DE01523F81DF74BBCB51B6617BB85DDFB3592DEDC8CEF3EA7B4BC3B276A2",
+      "size_bytes": 14215,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 51,
+      "path": "checkpoints/carriers/event_phase/event_fit_051.npz",
+      "seed": 291103,
+      "sha256": "4430B5A86A58DA6D3CF73D14A616BC0856CDCBC91DB3226D12D028A3F7F4EBBD",
+      "size_bytes": 14277,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 52,
+      "path": "checkpoints/carriers/event_phase/event_fit_052.npz",
+      "seed": 291103,
+      "sha256": "FB27A9AFEBE9027C2628BC811668F575E50BADECA2D19DF0F16091D5BAD40AA6",
+      "size_bytes": 14227,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 53,
+      "path": "checkpoints/carriers/event_phase/event_fit_053.npz",
+      "seed": 291103,
+      "sha256": "6757916C5A3EB57DA620BB79C937D6410B50F49B1E6279C4C7AC2AB9126819AD",
+      "size_bytes": 14236,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 54,
+      "path": "checkpoints/carriers/event_phase/event_fit_054.npz",
+      "seed": 291103,
+      "sha256": "13C0A059CCACEA28668E530B684E7635BC80208BE4234E70A6DD6417E42BCF07",
+      "size_bytes": 14155,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 55,
+      "path": "checkpoints/carriers/event_phase/event_fit_055.npz",
+      "seed": 291101,
+      "sha256": "608A428CF9CC391E5F509AE9615189E407A4FCA50018602DA946A08A298E3BB7",
+      "size_bytes": 11108,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 56,
+      "path": "checkpoints/carriers/event_phase/event_fit_056.npz",
+      "seed": 291101,
+      "sha256": "FFF2D45795B6395DC2B97ED9BE0CEE378C9806DA8DF3468F3BFABD38CE581E5B",
+      "size_bytes": 11166,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 57,
+      "path": "checkpoints/carriers/event_phase/event_fit_057.npz",
+      "seed": 291101,
+      "sha256": "EFB2D730F8329F4B224C964E23D8374FE2E3C70AB6D87169BB354E2BA5E3404F",
+      "size_bytes": 11180,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 58,
+      "path": "checkpoints/carriers/event_phase/event_fit_058.npz",
+      "seed": 291101,
+      "sha256": "E09EC5E1D4B0531B9E2C475C105BC7B8A3B1C9CD3A71935B1AF0AFCB9287489B",
+      "size_bytes": 11153,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 59,
+      "path": "checkpoints/carriers/event_phase/event_fit_059.npz",
+      "seed": 291101,
+      "sha256": "65BB2D84C7D29CAD8A829DF995C634B11001D39D64980E6978383034F64821C7",
+      "size_bytes": 11219,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 60,
+      "path": "checkpoints/carriers/event_phase/event_fit_060.npz",
+      "seed": 291101,
+      "sha256": "303C70663996A228B33515E1DB446CEC414CE67A370404A1DAA0A75F17C653F4",
+      "size_bytes": 11191,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 61,
+      "path": "checkpoints/carriers/event_phase/event_fit_061.npz",
+      "seed": 291101,
+      "sha256": "AB856F32576B18322CDAF329C2735F64DB30DFB55F03FCEEE664071B41A5A9AA",
+      "size_bytes": 11229,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 62,
+      "path": "checkpoints/carriers/event_phase/event_fit_062.npz",
+      "seed": 291101,
+      "sha256": "6AD53521D9E0038BA0A42146B6840FDBB43C9AF9F1BCF681F0F65868BD86685A",
+      "size_bytes": 11185,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 63,
+      "path": "checkpoints/carriers/event_phase/event_fit_063.npz",
+      "seed": 291101,
+      "sha256": "EA73AB360914E7F6179D3722583599E255549C921995FF56A3C962E51DA9419B",
+      "size_bytes": 11246,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 64,
+      "path": "checkpoints/carriers/event_phase/event_fit_064.npz",
+      "seed": 291101,
+      "sha256": "81BF8844428F8CAD67511F7BEB8348754DF909A2ED6737B95ADC64A9FE198D3F",
+      "size_bytes": 11264,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 65,
+      "path": "checkpoints/carriers/event_phase/event_fit_065.npz",
+      "seed": 291101,
+      "sha256": "A5B21204004A3B4876FCDBE2E36913F019947124493B374011A968ABD44A0648",
+      "size_bytes": 11220,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 66,
+      "path": "checkpoints/carriers/event_phase/event_fit_066.npz",
+      "seed": 291101,
+      "sha256": "E63F17C7C7D2BECA46BDD9EEAE988E2F222AADCCE57E0EAE3A98796200676FDD",
+      "size_bytes": 11273,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 67,
+      "path": "checkpoints/carriers/event_phase/event_fit_067.npz",
+      "seed": 291102,
+      "sha256": "AD0AFEDB555356C33BD5CC8603FA6728024E19E38921269DEDBD5F1E73D3A899",
+      "size_bytes": 11136,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 68,
+      "path": "checkpoints/carriers/event_phase/event_fit_068.npz",
+      "seed": 291102,
+      "sha256": "8BFE8E7637DCAD5094FFFC55235E5798F6C40AACC8A3A8C1CF840016381D18B2",
+      "size_bytes": 11250,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 69,
+      "path": "checkpoints/carriers/event_phase/event_fit_069.npz",
+      "seed": 291102,
+      "sha256": "8934EDFCA611C54B1EEE954232B400818C92A7B2BAB565652AFB68B269C51106",
+      "size_bytes": 11083,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 70,
+      "path": "checkpoints/carriers/event_phase/event_fit_070.npz",
+      "seed": 291102,
+      "sha256": "4224035536015540A695D1295E145B04DC7A603E949B6357AF17F03A00F4DB81",
+      "size_bytes": 11188,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 71,
+      "path": "checkpoints/carriers/event_phase/event_fit_071.npz",
+      "seed": 291102,
+      "sha256": "E1BF8C70976669E5A42FE982CEE67B674D20C4EF8068BA4BD8F52D3F7A3031A0",
+      "size_bytes": 11212,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 72,
+      "path": "checkpoints/carriers/event_phase/event_fit_072.npz",
+      "seed": 291102,
+      "sha256": "F8C4D12AFE23022663ADD700F4D00DBFBDD4E9320010D1373FE51A10C23D01D9",
+      "size_bytes": 11265,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 73,
+      "path": "checkpoints/carriers/event_phase/event_fit_073.npz",
+      "seed": 291102,
+      "sha256": "06D3DC5B952635F3D531263554DC1E712F76FD887A0B5418CE535EA743F2D0AD",
+      "size_bytes": 11214,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 74,
+      "path": "checkpoints/carriers/event_phase/event_fit_074.npz",
+      "seed": 291102,
+      "sha256": "E339E2690694350878328EB8065D866EFB6CF210C1AA8B30CF6610FD5D880E96",
+      "size_bytes": 11096,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 75,
+      "path": "checkpoints/carriers/event_phase/event_fit_075.npz",
+      "seed": 291102,
+      "sha256": "232378913DB6B2FE87E0173AB7D4703C8DD8F12FDB76CBE9BCC28004A021656B",
+      "size_bytes": 11142,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 76,
+      "path": "checkpoints/carriers/event_phase/event_fit_076.npz",
+      "seed": 291102,
+      "sha256": "4B603AC93A55D7F9AD5B9D17F7020B26FEE392AA6D2990A513E2B1E24D83880A",
+      "size_bytes": 11186,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 77,
+      "path": "checkpoints/carriers/event_phase/event_fit_077.npz",
+      "seed": 291102,
+      "sha256": "1D03AE2EEA4E0A19ECFD45CB1368F4FDB7D856476796386C50E809770CEF8A62",
+      "size_bytes": 11201,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 78,
+      "path": "checkpoints/carriers/event_phase/event_fit_078.npz",
+      "seed": 291102,
+      "sha256": "6649E27411EEA010116C752D2C5B9A30EABD9BAB837600B3A6521E9A31BB9485",
+      "size_bytes": 11142,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 79,
+      "path": "checkpoints/carriers/event_phase/event_fit_079.npz",
+      "seed": 291103,
+      "sha256": "64E0D30A166CE8B5183BA0E260A9AD8F10F7E4AFB244D78C82D929382E861525",
+      "size_bytes": 11243,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 80,
+      "path": "checkpoints/carriers/event_phase/event_fit_080.npz",
+      "seed": 291103,
+      "sha256": "E7CCF0F4223DE608ACFFDE2543C8CDB8B55B1DF62AF0A6AC5DBF5FECA43AAAEA",
+      "size_bytes": 11161,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 81,
+      "path": "checkpoints/carriers/event_phase/event_fit_081.npz",
+      "seed": 291103,
+      "sha256": "7EBD1F29628CDA61F6DACB91B4099299AA983D0C6D3B1D857810D2DAA59EC7F3",
+      "size_bytes": 11141,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 82,
+      "path": "checkpoints/carriers/event_phase/event_fit_082.npz",
+      "seed": 291103,
+      "sha256": "4E80EFA5EFD4AAC36444BFDC1DF1B91F48C69F2DA952B454215E1B6A4FAB9639",
+      "size_bytes": 11220,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 83,
+      "path": "checkpoints/carriers/event_phase/event_fit_083.npz",
+      "seed": 291103,
+      "sha256": "6D29412838069EE7F99681EB0CE6466DCA13FBBCFF5DAF848259BF08A70DEA80",
+      "size_bytes": 11234,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 84,
+      "path": "checkpoints/carriers/event_phase/event_fit_084.npz",
+      "seed": 291103,
+      "sha256": "D46769B364CAA06D4872E71B059B3567773D3CE6489C1691D880DCDF9DB651E1",
+      "size_bytes": 11248,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 85,
+      "path": "checkpoints/carriers/event_phase/event_fit_085.npz",
+      "seed": 291103,
+      "sha256": "2292C0241CAEAA046545BA129DE6769AA0E108F717E761FFC42EE1826FE917E4",
+      "size_bytes": 11045,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 86,
+      "path": "checkpoints/carriers/event_phase/event_fit_086.npz",
+      "seed": 291103,
+      "sha256": "E4156B27D916E327C0C0EF55BF1DA2C5365553051332FFF6085BC3AF5A7C8CFE",
+      "size_bytes": 11161,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 87,
+      "path": "checkpoints/carriers/event_phase/event_fit_087.npz",
+      "seed": 291103,
+      "sha256": "32B6894C107E534C288F8B892CBE5CEED383DBA9DFF218781472837D336C9CC4",
+      "size_bytes": 11163,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 88,
+      "path": "checkpoints/carriers/event_phase/event_fit_088.npz",
+      "seed": 291103,
+      "sha256": "764BCA87186678797EAB694F4E6FE45EC1821C449054AFE828DCE7826B7AE84D",
+      "size_bytes": 11192,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 89,
+      "path": "checkpoints/carriers/event_phase/event_fit_089.npz",
+      "seed": 291103,
+      "sha256": "EB12F8BE9986224B8395855D83FD7A6382954C46F63D8016C57E37D749D8DFEA",
+      "size_bytes": 11204,
+      "type": "event-phase carrier fit"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "fit_index": 90,
+      "path": "checkpoints/carriers/event_phase/event_fit_090.npz",
+      "seed": 291103,
+      "sha256": "BE49422D05CB1F7E6B4ED597A59D0BDEEBBB7C016BC6929BA9F3DDABC97118D4",
+      "size_bytes": 11203,
+      "type": "event-phase carrier fit"
+    }
+  ],
+  "checkpoint_count": 6,
+  "checkpoints": [
+    {
+      "carrier_dimension": 192,
+      "consumers": [
+        "native counterfactual adequacy",
+        "carrier experiments"
+      ],
+      "group": "development",
+      "parameter_count": 496200,
+      "path": "checkpoints/models/development/model_seed_291101.pt",
+      "seed": 291101,
+      "sha256": "2F5578CBDAB3A22DCEEFCE1056BC5CF3E89729549C19EBB30A28C0F4E7300569",
+      "size_bytes": 2005495,
+      "tensor_bundle_sha256": "8C7446BCBEC8E534BD7C5F98F1B337F079466DA3A4CC4A4A703BE6FC118FACD9",
+      "type": "model checkpoint"
+    },
+    {
+      "carrier_dimension": 192,
+      "consumers": [
+        "native counterfactual adequacy",
+        "carrier experiments"
+      ],
+      "group": "development",
+      "parameter_count": 496200,
+      "path": "checkpoints/models/development/model_seed_291102.pt",
+      "seed": 291102,
+      "sha256": "90A69BB66146FED8D4F17BA7B5CA510FA1478D5E491F1DB0C4FE6375C44808F2",
+      "size_bytes": 2005495,
+      "tensor_bundle_sha256": "68EF10EB11B0B33CD1C7C71695088599B52AA0BAA19520E4683B910860B51EA6",
+      "type": "model checkpoint"
+    },
+    {
+      "carrier_dimension": 192,
+      "consumers": [
+        "native counterfactual adequacy",
+        "carrier experiments"
+      ],
+      "group": "development",
+      "parameter_count": 496200,
+      "path": "checkpoints/models/development/model_seed_291103.pt",
+      "seed": 291103,
+      "sha256": "0319E58996BABDE6B9661EED83CDF9915334A55B741D96F5E6A9E84BB82D59F9",
+      "size_bytes": 2005495,
+      "tensor_bundle_sha256": "DFE06339261F941694C2E40BE67A1E1192303225F510284CDB320C9D9954F605",
+      "type": "model checkpoint"
+    },
+    {
+      "carrier_dimension": 192,
+      "consumers": [
+        "native counterfactual adequacy",
+        "carrier experiments"
+      ],
+      "group": "replication",
+      "parameter_count": 496200,
+      "path": "checkpoints/models/replication/model_seed_291301.pt",
+      "seed": 291301,
+      "sha256": "BDAAC206AA257FBEBB27E0F025D7D2BA526C234B4D2AA0B628B733E43FE1BD27",
+      "size_bytes": 2005495,
+      "tensor_bundle_sha256": "E0A01314264F1EE6D26B4A1FC4849B68132638D2E6F4040FBCA44E16F9DC5394",
+      "type": "model checkpoint"
+    },
+    {
+      "carrier_dimension": 192,
+      "consumers": [
+        "native counterfactual adequacy",
+        "carrier experiments"
+      ],
+      "group": "replication",
+      "parameter_count": 496200,
+      "path": "checkpoints/models/replication/model_seed_291302.pt",
+      "seed": 291302,
+      "sha256": "5B2A756EE88BDBC536D20F8E8A2EDDA7568EFA213D6A3B7748EA59ABE655EB4C",
+      "size_bytes": 2005495,
+      "tensor_bundle_sha256": "FAD705EB66906F0B864F0EED59D8041F96B33C7149D43D68BDD204405D769CAC",
+      "type": "model checkpoint"
+    },
+    {
+      "carrier_dimension": 192,
+      "consumers": [
+        "native counterfactual adequacy",
+        "carrier experiments"
+      ],
+      "group": "replication",
+      "parameter_count": 496200,
+      "path": "checkpoints/models/replication/model_seed_291303.pt",
+      "seed": 291303,
+      "sha256": "073C0C1A104A3C99EAF515CD1313D5CAE3C3FC54AE0FBBA3053342E3762DAEF8",
+      "size_bytes": 2005495,
+      "tensor_bundle_sha256": "669EFF45D1C43F3722382066A7F54415D798DC3736339E3E9041D524F9337B59",
+      "type": "model checkpoint"
+    }
+  ],
+  "schema_version": "public-checkpoint-manifest-v1"
+}

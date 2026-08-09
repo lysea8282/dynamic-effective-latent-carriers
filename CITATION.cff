@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the accompanying paper."
+title: "Dynamic Effective Latent Carriers"
+type: software
+version: 0.1.0
+date-released: 2026-08-10
+authors:
+  - family-names: "Authors"
+    given-names: "Dynamic Effective Latent Carriers"
+repository-code: "https://github.com/PROJECT-TO-BE-ASSIGNED/dynamic-effective-latent-carriers"
+license: MIT

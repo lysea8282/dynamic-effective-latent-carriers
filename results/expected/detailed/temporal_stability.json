@@ -1,0 +1,106 @@
+{
+  "B1_all_five_anchors_pass": true,
+  "B1_anchor_panel_results": {
+    "5": {
+      "passes_2_of_3_rule": true,
+      "passing_checkpoint_count": 2,
+      "rank": 4,
+      "seed_both_strata_pass": {
+        "291301": true,
+        "291302": true,
+        "291303": false
+      }
+    },
+    "6": {
+      "passes_2_of_3_rule": true,
+      "passing_checkpoint_count": 2,
+      "rank": 4,
+      "seed_both_strata_pass": {
+        "291301": true,
+        "291302": true,
+        "291303": false
+      }
+    },
+    "7": {
+      "passes_2_of_3_rule": true,
+      "passing_checkpoint_count": 2,
+      "rank": 4,
+      "seed_both_strata_pass": {
+        "291301": true,
+        "291302": true,
+        "291303": false
+      }
+    },
+    "8": {
+      "passes_2_of_3_rule": true,
+      "passing_checkpoint_count": 2,
+      "rank": 4,
+      "seed_both_strata_pass": {
+        "291301": true,
+        "291302": true,
+        "291303": false
+      }
+    },
+    "9": {
+      "passes_2_of_3_rule": true,
+      "passing_checkpoint_count": 2,
+      "rank": 4,
+      "seed_both_strata_pass": {
+        "291301": true,
+        "291302": true,
+        "291303": false
+      }
+    }
+  },
+  "B2_all_four_targets_pass": true,
+  "B2_target_anchor_panel_results": {
+    "5": {
+      "passes_2_of_3_rule": true,
+      "passing_checkpoint_count": 2,
+      "seed_both_strata_pass": {
+        "291301": true,
+        "291302": true,
+        "291303": false
+      }
+    },
+    "6": {
+      "passes_2_of_3_rule": true,
+      "passing_checkpoint_count": 2,
+      "seed_both_strata_pass": {
+        "291301": true,
+        "291302": true,
+        "291303": false
+      }
+    },
+    "8": {
+      "passes_2_of_3_rule": true,
+      "passing_checkpoint_count": 2,
+      "seed_both_strata_pass": {
+        "291301": true,
+        "291302": true,
+        "291303": false
+      }
+    },
+    "9": {
+      "passes_2_of_3_rule": true,
+      "passing_checkpoint_count": 2,
+      "seed_both_strata_pass": {
+        "291301": true,
+        "291302": true,
+        "291303": false
+      }
+    }
+  },
+  "B3_event_phase_status": "NOT_EXECUTED",
+  "B3_outcome_executed": false,
+  "Route_D_executed": false,
+  "actual_B1_record_count": 3840,
+  "actual_B2_record_count": 3072,
+  "confirmatory_payload_read": true,
+  "schema_version": "study-temporal-confirmatory-result-v1",
+  "scientifically_interpretable": true,
+  "temporal_taxonomy_status": "TIME_STABLE_ADDRESSABLE_CARRIER",
+  "terminal_status": "TIME_STABLE_ADDRESSABLE_CARRIER",
+  "total_primary_record_count": 6912,
+  "transfer_executed": false
+}

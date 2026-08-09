@@ -1,0 +1,47 @@
+{
+  "combined": {
+    "cell_count": 36,
+    "closure_decision": "PASS_study_MODEL_ADEQUACY_CLOSED_AND_ACCEPTED_AS_study_INPUT_reference",
+    "eligible_G0_G1_joint_miss_count": 36,
+    "passing_cell_count": 36,
+    "passing_seed_count": 6,
+    "seed_count": 6
+  },
+  "development": {
+    "cell_count": 18,
+    "eligible_G0_G1_joint_miss_count": 6,
+    "eligible_G2_failure_count": 0,
+    "engineering_or_autonomy_failure_count": 0,
+    "evaluation_unit_count_per_seed": 512,
+    "passing_cell_count": 18,
+    "passing_seed_count": 3,
+    "route_record_count": 4608,
+    "seed_count": 3,
+    "seeds": [
+      291101,
+      291102,
+      291103
+    ],
+    "terminal_status": "PASS_DEVELOPMENT_MODEL_ADEQUACY_PANEL_READY_FOR_FRESH_REPLICATION_PREREGISTRATION"
+  },
+  "fresh_replication": {
+    "cell_count": 18,
+    "eligible_G0_G1_joint_miss_count": 30,
+    "eligible_G2_failure_count": 0,
+    "engineering_or_autonomy_failure_count": 0,
+    "evaluation_unit_count_per_seed": 512,
+    "minimum_cell_joint_coverage": 0.921875,
+    "passing_cell_count": 18,
+    "passing_seed_count": 3,
+    "route_record_count": 4608,
+    "seed_count": 3,
+    "seeds": [
+      291301,
+      291302,
+      291303
+    ],
+    "terminal_status": "PASS_FRESH_REPLICATION_MODEL_ADEQUACY_CONFIRMED"
+  },
+  "schema_version": "study-result-numerical-summary-v1",
+  "unit_perfect": false
+}

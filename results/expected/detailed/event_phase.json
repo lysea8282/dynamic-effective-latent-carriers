@@ -1,0 +1,280 @@
+{
+  "checkpoint_rule": "AT_LEAST_2_OF_3_DEVELOPMENT_CHECKPOINTS_PASS",
+  "clock_transport": {
+    "overall_pass": false,
+    "panels": {
+      "B3A/anchor=6/c8_tau-2->c9_tau-3": {
+        "checkpoint_pass": {
+          "291101": false,
+          "291102": false,
+          "291103": false
+        },
+        "passes_2_of_3_rule": false,
+        "passing_checkpoint_count": 0
+      },
+      "B3A/anchor=6/c9_tau-3->c8_tau-2": {
+        "checkpoint_pass": {
+          "291101": false,
+          "291102": false,
+          "291103": false
+        },
+        "passes_2_of_3_rule": false,
+        "passing_checkpoint_count": 0
+      },
+      "B3A/anchor=7/c8_tau-1->c9_tau-2": {
+        "checkpoint_pass": {
+          "291101": false,
+          "291102": false,
+          "291103": false
+        },
+        "passes_2_of_3_rule": false,
+        "passing_checkpoint_count": 0
+      },
+      "B3A/anchor=7/c9_tau-2->c8_tau-1": {
+        "checkpoint_pass": {
+          "291101": false,
+          "291102": false,
+          "291103": false
+        },
+        "passes_2_of_3_rule": false,
+        "passing_checkpoint_count": 0
+      },
+      "B3B/anchor=10/c8_tau+2->c9_tau+1": {
+        "checkpoint_pass": {
+          "291101": false,
+          "291102": false,
+          "291103": false
+        },
+        "passes_2_of_3_rule": false,
+        "passing_checkpoint_count": 0
+      },
+      "B3B/anchor=10/c9_tau+1->c8_tau+2": {
+        "checkpoint_pass": {
+          "291101": false,
+          "291102": false,
+          "291103": false
+        },
+        "passes_2_of_3_rule": false,
+        "passing_checkpoint_count": 0
+      },
+      "B3B/anchor=9/c8_tau+1->c9_tau+0": {
+        "checkpoint_pass": {
+          "291101": false,
+          "291102": false,
+          "291103": false
+        },
+        "passes_2_of_3_rule": false,
+        "passing_checkpoint_count": 0
+      },
+      "B3B/anchor=9/c9_tau+0->c8_tau+1": {
+        "checkpoint_pass": {
+          "291101": false,
+          "291102": false,
+          "291103": false
+        },
+        "passes_2_of_3_rule": false,
+        "passing_checkpoint_count": 0
+      }
+    },
+    "protocol_pass": {
+      "B3A": false,
+      "B3B": false
+    }
+  },
+  "confirmatory_interpretation": false,
+  "development_taxonomy": {
+    "bounded_synthesis": "DEVELOPMENT_NO_PHASE_SIGNAL",
+    "protocol_specific": {
+      "B3A": "DEVELOPMENT_NO_PHASE_SIGNAL",
+      "B3B": "DEVELOPMENT_NO_PHASE_SIGNAL"
+    }
+  },
+  "phase_local": {
+    "overall_pass": false,
+    "panels": {
+      "B3A/tau=-1": {
+        "checkpoint_pass": {
+          "291101": false,
+          "291102": false,
+          "291103": false
+        },
+        "passes_2_of_3_rule": false,
+        "passing_checkpoint_count": 0,
+        "rank": 4
+      },
+      "B3A/tau=-2": {
+        "checkpoint_pass": {
+          "291101": false,
+          "291102": false,
+          "291103": false
+        },
+        "passes_2_of_3_rule": false,
+        "passing_checkpoint_count": 0,
+        "rank": 4
+      },
+      "B3A/tau=-3": {
+        "checkpoint_pass": {
+          "291101": true,
+          "291102": false,
+          "291103": false
+        },
+        "passes_2_of_3_rule": false,
+        "passing_checkpoint_count": 1,
+        "rank": 4
+      },
+      "B3B/tau=+0": {
+        "checkpoint_pass": {
+          "291101": false,
+          "291102": false,
+          "291103": false
+        },
+        "passes_2_of_3_rule": false,
+        "passing_checkpoint_count": 0,
+        "rank": 4
+      },
+      "B3B/tau=+1": {
+        "checkpoint_pass": {
+          "291101": false,
+          "291102": false,
+          "291103": false
+        },
+        "passes_2_of_3_rule": false,
+        "passing_checkpoint_count": 0,
+        "rank": 4
+      },
+      "B3B/tau=+2": {
+        "checkpoint_pass": {
+          "291101": false,
+          "291102": false,
+          "291103": false
+        },
+        "passes_2_of_3_rule": false,
+        "passing_checkpoint_count": 0,
+        "rank": 4
+      }
+    },
+    "protocol_pass": {
+      "B3A": false,
+      "B3B": false
+    }
+  },
+  "phase_transport": {
+    "overall_pass": false,
+    "panels": {
+      "B3A/tau=-1/8->9": {
+        "checkpoint_pass": {
+          "291101": false,
+          "291102": false,
+          "291103": false
+        },
+        "passes_2_of_3_rule": false,
+        "passing_checkpoint_count": 0
+      },
+      "B3A/tau=-1/9->8": {
+        "checkpoint_pass": {
+          "291101": false,
+          "291102": false,
+          "291103": false
+        },
+        "passes_2_of_3_rule": false,
+        "passing_checkpoint_count": 0
+      },
+      "B3A/tau=-2/8->9": {
+        "checkpoint_pass": {
+          "291101": false,
+          "291102": false,
+          "291103": false
+        },
+        "passes_2_of_3_rule": false,
+        "passing_checkpoint_count": 0
+      },
+      "B3A/tau=-2/9->8": {
+        "checkpoint_pass": {
+          "291101": false,
+          "291102": false,
+          "291103": false
+        },
+        "passes_2_of_3_rule": false,
+        "passing_checkpoint_count": 0
+      },
+      "B3A/tau=-3/8->9": {
+        "checkpoint_pass": {
+          "291101": true,
+          "291102": false,
+          "291103": false
+        },
+        "passes_2_of_3_rule": false,
+        "passing_checkpoint_count": 1
+      },
+      "B3A/tau=-3/9->8": {
+        "checkpoint_pass": {
+          "291101": false,
+          "291102": false,
+          "291103": false
+        },
+        "passes_2_of_3_rule": false,
+        "passing_checkpoint_count": 0
+      },
+      "B3B/tau=+0/8->9": {
+        "checkpoint_pass": {
+          "291101": false,
+          "291102": false,
+          "291103": false
+        },
+        "passes_2_of_3_rule": false,
+        "passing_checkpoint_count": 0
+      },
+      "B3B/tau=+0/9->8": {
+        "checkpoint_pass": {
+          "291101": false,
+          "291102": false,
+          "291103": false
+        },
+        "passes_2_of_3_rule": false,
+        "passing_checkpoint_count": 0
+      },
+      "B3B/tau=+1/8->9": {
+        "checkpoint_pass": {
+          "291101": false,
+          "291102": false,
+          "291103": false
+        },
+        "passes_2_of_3_rule": false,
+        "passing_checkpoint_count": 0
+      },
+      "B3B/tau=+1/9->8": {
+        "checkpoint_pass": {
+          "291101": false,
+          "291102": false,
+          "291103": false
+        },
+        "passes_2_of_3_rule": false,
+        "passing_checkpoint_count": 0
+      },
+      "B3B/tau=+2/8->9": {
+        "checkpoint_pass": {
+          "291101": false,
+          "291102": false,
+          "291103": false
+        },
+        "passes_2_of_3_rule": false,
+        "passing_checkpoint_count": 0
+      },
+      "B3B/tau=+2/9->8": {
+        "checkpoint_pass": {
+          "291101": false,
+          "291102": false,
+          "291103": false
+        },
+        "passes_2_of_3_rule": false,
+        "passing_checkpoint_count": 0
+      }
+    },
+    "protocol_pass": {
+      "B3A": false,
+      "B3B": false
+    }
+  },
+  "primary_rank": 4,
+  "schema_version": "study-b3-v2-method-dev-panel-results-v1"
+}

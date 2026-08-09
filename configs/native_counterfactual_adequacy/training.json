@@ -1,0 +1,31 @@
+{
+  "anchors": [
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "batch_size": 96,
+  "batches_per_epoch": 24,
+  "branch_weights": {
+    "counterfactual": 0.5,
+    "factual": 0.5
+  },
+  "cosine_minimum_learning_rate": 0.00015,
+  "epochs": 70,
+  "horizon": 12,
+  "learning_rate": 0.0015,
+  "objective_weights": {
+    "anchor": 0.2,
+    "filtering": 0.2,
+    "relative": 0.25,
+    "rollout": 1.0,
+    "velocity_change": 0.25
+  },
+  "optimizer": "AdamW",
+  "python": "3.12.10",
+  "torch": "2.11.0",
+  "updates": 1680,
+  "weight_decay": 1e-05
+}

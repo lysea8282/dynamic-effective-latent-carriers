@@ -1,0 +1,134 @@
+{
+  "dataset_count": 10,
+  "datasets": [
+    {
+      "consumers": [
+        "optional retraining"
+      ],
+      "description": "model training",
+      "metadata_example_numeric_sha256": "45BD1C73F75854D0DF8FF8FF688460FE9E97E7C6C9F3E17140B81E7B7E79A32D",
+      "numeric_array_sha256": {
+        "actions": "A337F953BE359ED9F9070474A797F1E8E557E665FDFE765CD3507366D5F2FB8A",
+        "counterfactual": "2F83D5D4023A3CED30762447444A2C1D9A48FAAB48A8906B754ADF59134612DE",
+        "counterfactual_obs": "C7AA4D97F4A21A0B04DAA0BDD001684F57BF0A95A7E795DE0E400E6E2B35AA20",
+        "factual": "98CBB24AD3A7A3AE6D881FD58F6446771058F74123483675E649B7CFE4F8B79C",
+        "factual_obs": "CE6A65651C8B7E2239A677F20CFCAC3F99CAEE09F5E28DFB2F0B4200BBD52139"
+      },
+      "path": "data/training/model_training_dataset.npz",
+      "record_count": 5120,
+      "sha256": "F9517F9316672055244B0B50FA4947A5E47161920995FEB7F793252B94D50C5E",
+      "size_bytes": 6683848,
+      "type": "dataset"
+    },
+    {
+      "consumers": [
+        "low-rank velocity carrier"
+      ],
+      "description": "velocity carrier fitting",
+      "numeric_record_stream_sha256": "6C4A610A83E77F4944862E897227DC58B29E4FF4661F0002B7BC5A02683270E0",
+      "path": "data/training/velocity_carrier_fit.jsonl",
+      "record_count": 1024,
+      "sha256": "4A32912FF709827AFAA19D7F19D7994EB3040110E1FCA10A62F88201A4C95350",
+      "size_bytes": 13918293,
+      "type": "dataset"
+    },
+    {
+      "consumers": [
+        "rank profile",
+        "position specificity"
+      ],
+      "description": "velocity development evaluation",
+      "numeric_record_stream_sha256": "492880F8FB39CFD69B4E803F6AD56651D8408AE83B1A1D760822204076A29DC3",
+      "path": "data/evaluation/velocity_development.jsonl",
+      "record_count": 512,
+      "sha256": "5B4C789F00FD8F9B0B22554953076AABF9DAF7D3034B7B106CA3870819607D09",
+      "size_bytes": 6955852,
+      "type": "dataset"
+    },
+    {
+      "consumers": [
+        "addressable carrier replication"
+      ],
+      "description": "velocity replication evaluation",
+      "numeric_record_stream_sha256": "ACB9EB299C59B9E650EC87DF645D002CF0B2F9DD95B8964B73D7EF052BCD0AF1",
+      "path": "data/evaluation/velocity_replication.jsonl",
+      "record_count": 512,
+      "sha256": "A06FBD28A27E7A9A045EF2F6E0A4C74F126489FFBAFB9AB8F15B56046E50F94C",
+      "size_bytes": 6960887,
+      "type": "dataset"
+    },
+    {
+      "consumers": [
+        "temporal stability"
+      ],
+      "description": "temporal carrier fitting",
+      "numeric_record_stream_sha256": "EE21036ACCFFCEBA4408E11015C73CFF44773CDE284627387855423B97BEF00A",
+      "path": "data/counterfactual/temporal_carrier_fit.jsonl",
+      "record_count": 1280,
+      "sha256": "305FB5F6BB0D6238CCDCDBA96A45508881B1214C41BA701B796E4E94C5DB3354",
+      "size_bytes": 18932996,
+      "type": "dataset"
+    },
+    {
+      "consumers": [
+        "temporal stability"
+      ],
+      "description": "temporal development evaluation",
+      "numeric_record_stream_sha256": "5F517FBFE24E81ABDC3F157F80FEF2B9448BAFB6DB0B0639A0EC47C3C3365248",
+      "path": "data/counterfactual/temporal_development.jsonl",
+      "record_count": 1280,
+      "sha256": "7AFCAB25F049C8938A96190658628BC4581D7E943EE2D09F04489175102774ED",
+      "size_bytes": 18925617,
+      "type": "dataset"
+    },
+    {
+      "consumers": [
+        "temporal stability"
+      ],
+      "description": "temporal replication evaluation",
+      "numeric_record_stream_sha256": "760F49F74E1579DF29420DB2804A9289ED958B806D22493989B8BA472B069806",
+      "path": "data/counterfactual/temporal_replication.jsonl",
+      "record_count": 1280,
+      "sha256": "79E22F10E8ED10A11AFECEECDB6FFA7FA032AC9DDF488A98C1BAD0293DADC4B8",
+      "size_bytes": 18940066,
+      "type": "dataset"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "description": "event-phase carrier fitting",
+      "numeric_record_stream_sha256": "3CBE11807ABA3191B8CEC20014CF565ECEA8E4D8D1354C8613E483458758960F",
+      "path": "data/counterfactual/event_phase_carrier_fit.jsonl",
+      "record_count": 576,
+      "sha256": "6D811E8BD8D044DB3E2D1B814495D76BE272568FA147EA66939BBC800DBEEE44",
+      "size_bytes": 4285963,
+      "type": "dataset"
+    },
+    {
+      "consumers": [
+        "event-phase analysis"
+      ],
+      "description": "event-phase development evaluation",
+      "numeric_record_stream_sha256": "ED00E015E35E38539C4799850D808F627B46C36620FB7F31582EC2B998C8F16A",
+      "path": "data/counterfactual/event_phase_development.jsonl",
+      "record_count": 576,
+      "sha256": "7EE57302E1BC749B48875CDECADC3A7E50BA814317CB8E2C73BF1C48CB32CCE2",
+      "size_bytes": 4290127,
+      "type": "dataset"
+    },
+    {
+      "consumers": [
+        "future held-out event-phase analysis"
+      ],
+      "description": "held-out event-phase records",
+      "numeric_record_stream_sha256": "DA129046880FC36D97BD5055FBAF900FC780F639E75E6791CAEF52E0BAF375C9",
+      "path": "data/counterfactual/event_phase_replication.jsonl",
+      "record_count": 576,
+      "sha256": "0F1CFA7F40D024C23FC44A68E48D2EB07B0508BF2020189C1B283C64189CC9F0",
+      "size_bytes": 4301727,
+      "type": "dataset"
+    }
+  ],
+  "schema_version": "public-dataset-manifest-v1"
+}

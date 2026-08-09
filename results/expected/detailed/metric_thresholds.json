@@ -1,0 +1,291 @@
+{
+  "interpretation_boundary": "development calibration draft; not locked-final, not formal, not a scientific result",
+  "model_checkpoint_sha256": {
+    "LR-A__seed_221202": "0A06AF050A2559FDA6CC0110B04CC7CCA12BFF8EA5DE1BF87C63C72CCD8BDDFF",
+    "LR-A__seed_221205": "20B7D3BC173D072021FF1B9C0892D6B057875F9A7B31406E8E1AA33AE234839F"
+  },
+  "pair_registry_sha256": "7A90671A2C5E25E58F83D3624A4309133AB56D1E5005A8CBC50BC1EBA78B219D",
+  "phase": "DEVELOPMENT_NON_CONSUMING",
+  "rank_outcomes_read_before_freeze": false,
+  "schema_version": "study-threshold-registry-v1-draft",
+  "selection_order": [
+    "freeze_registry_and_model_panel",
+    "derive_truth_only_scales",
+    "run_G0_G1_G2_and_controls",
+    "select_and_freeze_positive_control_thresholds",
+    "evaluate_rank_outcomes"
+  ],
+  "status": "DRAFT_PENDING_HUMAN_REVIEW_AND_INDEPENDENT_validation",
+  "thresholds": {
+    "S1_NO_CONTACT_WITHIN_HORIZON": {
+      "M1": {
+        "aggregation_rule": "unit-level score; stratum pass requires >=0.8 joint coverage and median metric within threshold",
+        "calibration_split": "THRESHOLD_CALIBRATION",
+        "control_rows_used": [
+          "G0_FACTUAL_MODEL",
+          "G1_NATIVE_COUNTERFACTUAL_MODEL",
+          "G2_FULL_HIDDEN_EQUIVALENCE"
+        ],
+        "coverage_target": 0.8,
+        "direction": "LESS_THAN_OR_EQUAL",
+        "engineering_floor": 0.1,
+        "missingness_censoring_rule": "non-finite is fail; no frame-level replicate",
+        "positive_n": 384,
+        "positive_q95": 0.3503801551185886,
+        "rationale": "q95 plus 0.25 IQR of positive-control error, bounded below by engineering floor",
+        "status": "DRAFT_PENDING_HUMAN_REVIEW_AND_validation",
+        "tie_rule": "value equal to threshold passes",
+        "value": 0.38875516163789126
+      },
+      "M2": {
+        "aggregation_rule": "unit-level score; stratum pass requires >=0.8 joint coverage and median metric within threshold",
+        "calibration_split": "THRESHOLD_CALIBRATION",
+        "control_rows_used": [
+          "G0_FACTUAL_MODEL",
+          "G1_NATIVE_COUNTERFACTUAL_MODEL",
+          "G2_FULL_HIDDEN_EQUIVALENCE"
+        ],
+        "coverage_target": 0.8,
+        "direction": "LESS_THAN_OR_EQUAL",
+        "engineering_floor": 0.1,
+        "missingness_censoring_rule": "non-finite is fail; no frame-level replicate",
+        "positive_n": 384,
+        "positive_q95": 0.6028883498587292,
+        "rationale": "q95 plus 0.25 IQR of positive-control error, bounded below by engineering floor",
+        "status": "DRAFT_PENDING_HUMAN_REVIEW_AND_validation",
+        "tie_rule": "value equal to threshold passes",
+        "value": 0.6530927312234215
+      },
+      "M3": {
+        "aggregation_rule": "unit-level score; stratum pass requires >=0.8 joint coverage and median metric within threshold",
+        "calibration_split": "THRESHOLD_CALIBRATION",
+        "control_rows_used": [
+          "G0_FACTUAL_MODEL",
+          "G1_NATIVE_COUNTERFACTUAL_MODEL",
+          "G2_FULL_HIDDEN_EQUIVALENCE"
+        ],
+        "coverage_target": 0.8,
+        "direction": "LESS_THAN_OR_EQUAL",
+        "engineering_floor": 0.1,
+        "missingness_censoring_rule": "non-finite is fail; no frame-level replicate",
+        "positive_n": 384,
+        "positive_q95": 0.26201576329946097,
+        "rationale": "q95 plus 0.25 IQR of positive-control error, bounded below by engineering floor",
+        "status": "DRAFT_PENDING_HUMAN_REVIEW_AND_validation",
+        "tie_rule": "value equal to threshold passes",
+        "value": 0.28744727060560543
+      },
+      "M4": {
+        "aggregation_rule": "unit-level score; stratum pass requires >=0.8 joint coverage and median metric within threshold",
+        "calibration_split": "THRESHOLD_CALIBRATION",
+        "control_rows_used": [
+          "G0_FACTUAL_MODEL",
+          "G1_NATIVE_COUNTERFACTUAL_MODEL",
+          "G2_FULL_HIDDEN_EQUIVALENCE"
+        ],
+        "coverage_target": 0.8,
+        "direction": "LESS_THAN_OR_EQUAL",
+        "engineering_floor": 0.1,
+        "missingness_censoring_rule": "non-finite is fail; no frame-level replicate",
+        "positive_n": 384,
+        "positive_q95": 0.31469283927015007,
+        "rationale": "q95 plus 0.25 IQR of positive-control error, bounded below by engineering floor",
+        "status": "DRAFT_PENDING_HUMAN_REVIEW_AND_validation",
+        "tie_rule": "value equal to threshold passes",
+        "value": 0.3393832556356259
+      },
+      "M5": {
+        "aggregation_rule": "unit-level score; stratum pass requires >=0.8 joint coverage and median metric within threshold",
+        "calibration_split": "THRESHOLD_CALIBRATION",
+        "control_rows_used": [
+          "G0_FACTUAL_MODEL",
+          "G1_NATIVE_COUNTERFACTUAL_MODEL",
+          "G2_FULL_HIDDEN_EQUIVALENCE"
+        ],
+        "coverage_target": 0.8,
+        "direction": "LESS_THAN_OR_EQUAL",
+        "engineering_floor": 0.1,
+        "missingness_censoring_rule": "non-finite is fail; no frame-level replicate",
+        "positive_n": 384,
+        "positive_q95": 18.692025542259216,
+        "rationale": "q95 plus 0.25 IQR of positive-control error, bounded below by engineering floor",
+        "status": "DRAFT_PENDING_HUMAN_REVIEW_AND_validation",
+        "tie_rule": "value equal to threshold passes",
+        "value": 20.260185026563704
+      },
+      "M6": {
+        "aggregation_rule": "unit-level score; stratum pass requires >=0.8 joint coverage and median metric within threshold",
+        "calibration_split": "THRESHOLD_CALIBRATION",
+        "control_rows_used": [
+          "G0_FACTUAL_MODEL",
+          "G1_NATIVE_COUNTERFACTUAL_MODEL",
+          "G2_FULL_HIDDEN_EQUIVALENCE"
+        ],
+        "coverage_target": 0.8,
+        "direction": "LESS_THAN_OR_EQUAL",
+        "engineering_floor": 0.1,
+        "missingness_censoring_rule": "non-finite is fail; no frame-level replicate",
+        "positive_n": 384,
+        "positive_q95": 1.440643072807977,
+        "rationale": "q95 plus 0.25 IQR of positive-control error, bounded below by engineering floor",
+        "status": "DRAFT_PENDING_HUMAN_REVIEW_AND_validation",
+        "tie_rule": "value equal to threshold passes",
+        "value": 1.5035589788032466
+      }
+    },
+    "S2_EDIT_AFFECTS_FUTURE_CONTACT": {
+      "M1": {
+        "aggregation_rule": "unit-level score; stratum pass requires >=0.8 joint coverage and median metric within threshold",
+        "calibration_split": "THRESHOLD_CALIBRATION",
+        "control_rows_used": [
+          "G0_FACTUAL_MODEL",
+          "G1_NATIVE_COUNTERFACTUAL_MODEL",
+          "G2_FULL_HIDDEN_EQUIVALENCE"
+        ],
+        "coverage_target": 0.8,
+        "direction": "LESS_THAN_OR_EQUAL",
+        "engineering_floor": 0.1,
+        "missingness_censoring_rule": "non-finite is fail; no frame-level replicate",
+        "positive_n": 384,
+        "positive_q95": 0.43003975467405786,
+        "rationale": "q95 plus 0.25 IQR of positive-control error, bounded below by engineering floor",
+        "status": "DRAFT_PENDING_HUMAN_REVIEW_AND_validation",
+        "tie_rule": "value equal to threshold passes",
+        "value": 0.4669759655361256
+      },
+      "M2": {
+        "aggregation_rule": "unit-level score; stratum pass requires >=0.8 joint coverage and median metric within threshold",
+        "calibration_split": "THRESHOLD_CALIBRATION",
+        "control_rows_used": [
+          "G0_FACTUAL_MODEL",
+          "G1_NATIVE_COUNTERFACTUAL_MODEL",
+          "G2_FULL_HIDDEN_EQUIVALENCE"
+        ],
+        "coverage_target": 0.8,
+        "direction": "LESS_THAN_OR_EQUAL",
+        "engineering_floor": 0.1,
+        "missingness_censoring_rule": "non-finite is fail; no frame-level replicate",
+        "positive_n": 384,
+        "positive_q95": 0.6042106136806578,
+        "rationale": "q95 plus 0.25 IQR of positive-control error, bounded below by engineering floor",
+        "status": "DRAFT_PENDING_HUMAN_REVIEW_AND_validation",
+        "tie_rule": "value equal to threshold passes",
+        "value": 0.6568131957898696
+      },
+      "M3": {
+        "aggregation_rule": "unit-level score; stratum pass requires >=0.8 joint coverage and median metric within threshold",
+        "calibration_split": "THRESHOLD_CALIBRATION",
+        "control_rows_used": [
+          "G0_FACTUAL_MODEL",
+          "G1_NATIVE_COUNTERFACTUAL_MODEL",
+          "G2_FULL_HIDDEN_EQUIVALENCE"
+        ],
+        "coverage_target": 0.8,
+        "direction": "LESS_THAN_OR_EQUAL",
+        "engineering_floor": 0.1,
+        "missingness_censoring_rule": "non-finite is fail; no frame-level replicate",
+        "positive_n": 384,
+        "positive_q95": 0.5009498278441724,
+        "rationale": "q95 plus 0.25 IQR of positive-control error, bounded below by engineering floor",
+        "status": "DRAFT_PENDING_HUMAN_REVIEW_AND_validation",
+        "tie_rule": "value equal to threshold passes",
+        "value": 0.5513987778513324
+      },
+      "M4": {
+        "aggregation_rule": "unit-level score; stratum pass requires >=0.8 joint coverage and median metric within threshold",
+        "calibration_split": "THRESHOLD_CALIBRATION",
+        "control_rows_used": [
+          "G0_FACTUAL_MODEL",
+          "G1_NATIVE_COUNTERFACTUAL_MODEL",
+          "G2_FULL_HIDDEN_EQUIVALENCE"
+        ],
+        "coverage_target": 0.8,
+        "direction": "LESS_THAN_OR_EQUAL",
+        "engineering_floor": 0.1,
+        "missingness_censoring_rule": "non-finite is fail; no frame-level replicate",
+        "positive_n": 384,
+        "positive_q95": 0.23899497445311751,
+        "rationale": "q95 plus 0.25 IQR of positive-control error, bounded below by engineering floor",
+        "status": "DRAFT_PENDING_HUMAN_REVIEW_AND_validation",
+        "tie_rule": "value equal to threshold passes",
+        "value": 0.25616304846974386
+      },
+      "M5": {
+        "aggregation_rule": "unit-level score; stratum pass requires >=0.8 joint coverage and median metric within threshold",
+        "calibration_split": "THRESHOLD_CALIBRATION",
+        "control_rows_used": [
+          "G0_FACTUAL_MODEL",
+          "G1_NATIVE_COUNTERFACTUAL_MODEL",
+          "G2_FULL_HIDDEN_EQUIVALENCE"
+        ],
+        "coverage_target": 0.8,
+        "direction": "LESS_THAN_OR_EQUAL",
+        "engineering_floor": 0.1,
+        "missingness_censoring_rule": "non-finite is fail; no frame-level replicate",
+        "positive_n": 384,
+        "positive_q95": 9.663946256041521,
+        "rationale": "q95 plus 0.25 IQR of positive-control error, bounded below by engineering floor",
+        "status": "DRAFT_PENDING_HUMAN_REVIEW_AND_validation",
+        "tie_rule": "value equal to threshold passes",
+        "value": 10.47115975990891
+      },
+      "M6": {
+        "aggregation_rule": "unit-level score; stratum pass requires >=0.8 joint coverage and median metric within threshold",
+        "calibration_split": "THRESHOLD_CALIBRATION",
+        "control_rows_used": [
+          "G0_FACTUAL_MODEL",
+          "G1_NATIVE_COUNTERFACTUAL_MODEL",
+          "G2_FULL_HIDDEN_EQUIVALENCE"
+        ],
+        "coverage_target": 0.8,
+        "direction": "LESS_THAN_OR_EQUAL",
+        "engineering_floor": 0.1,
+        "missingness_censoring_rule": "non-finite is fail; no frame-level replicate",
+        "positive_n": 384,
+        "positive_q95": 1.0733781767468125,
+        "rationale": "q95 plus 0.25 IQR of positive-control error, bounded below by engineering floor",
+        "status": "DRAFT_PENDING_HUMAN_REVIEW_AND_validation",
+        "tie_rule": "value equal to threshold passes",
+        "value": 1.1097587800885618
+      }
+    }
+  },
+  "truth_only_scales": {
+    "derived_scale": [
+      1.0412499374862598,
+      0.8763870548144855,
+      0.7427493042108881,
+      0.7979702901749632,
+      0.32510647855373204,
+      0.3266522684669588,
+      0.06287909000661222,
+      0.07177086311727762,
+      0.12575818001322445,
+      0.14354172623455524,
+      0.06497246816756366,
+      0.3583920871169873,
+      1.0
+    ],
+    "derived_scale_sha256": "D8BD91762CEA7130AF74AA23716916A573927992BEC9862A88FE1DFE41054987",
+    "estimator": "max(IQR/1.349, 1.4826*MAD, engineering_floor=0.01); contact scale=1",
+    "primitive_scale": [
+      [
+        0.6472089235448364,
+        0.6243559267725796,
+        0.4020797697996464,
+        0.39198204060541064
+      ],
+      [
+        0.6867968750008838,
+        0.5588272770105953,
+        0.40070553910696244,
+        0.3578059730529785
+      ]
+    ],
+    "primitive_scale_sha256": "B0FD09A860DA9A74A732EB321C70887A755E66863B000BEE9CCC9D75C5FF25C3",
+    "source": "THRESHOLD_CALIBRATION counterfactual simulator truth only",
+    "source_unit_count": 128
+  },
+  "w27_metric_contract_sha256": "9A4FA09DDED096FED526922969FE333399A911DF4DCFDA17FF8A1D5BA4A2CA15",
+  "w27_metric_schema_sha256": "846E27B92E75F58E42BB6678144D99D1DC3437C5C77965CA87488FD75641E86D"
+}

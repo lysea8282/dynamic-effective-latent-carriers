@@ -1,0 +1,11 @@
+name: dynamic-effective-carriers
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.12.10
+  - numpy=2.4.4
+  - matplotlib=3.10.9
+  - pyyaml=6.0.3
+  - pytest=9.1.1
+  - pytorch=2.11.0

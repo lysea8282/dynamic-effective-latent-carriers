@@ -1,0 +1,39 @@
+{
+  "addressable_panel_pass": true,
+  "artifact_class": "CONFIRMATORY_NONFINAL",
+  "beta_evaluation_count": 1,
+  "capacity_only_assay_performed": false,
+  "capacity_only_terminal_reachable_in_this_frozen_execution": false,
+  "donor_recipient_transfer_performed": false,
+  "fresh_checkpoint_count": 3,
+  "frozen_method": {
+    "beta": 1.0,
+    "carrier": "LOCAL_EDIT_DELTA_PCA",
+    "feature_order": [
+      "intercept",
+      "object0_vx_edit",
+      "object0_vy_edit",
+      "object1_vx_edit",
+      "object1_vy_edit",
+      "object0_x",
+      "object0_y",
+      "object0_vx",
+      "object0_vy",
+      "object1_x",
+      "object1_y",
+      "object1_vx",
+      "object1_vy"
+    ],
+    "feature_std_floor": 1e-06,
+    "operator": "TRAIN_ONLY_EDIT_TO_COEFFICIENT_OPERATOR",
+    "rank": 4,
+    "ridge_lambda": 0.0001
+  },
+  "minimum_passing_checkpoint_count": 2,
+  "operator_evaluation_count": 1,
+  "passing_checkpoint_count": 2,
+  "rank_evaluation_count": 1,
+  "schema_version": "study-confirmatory-panel-result-v1",
+  "temporal_generalization_performed": false,
+  "terminal_status": "PASS_REPLICATED_ADDRESSABLE_LOW_RANK_DYNAMIC_EFFECTIVE_STATE"
+}

@@ -1,0 +1,250 @@
+{
+  "event_phase": {
+    "clock_transport_pass": false,
+    "interpretation": "no positive phase signal in the bounded development protocol",
+    "phase_local_pass": false,
+    "phase_transport_pass": false,
+    "rank": 4
+  },
+  "frozen_artifact_reproduction": true,
+  "intervention_specificity": {
+    "all_three_tested_explanations_supported": false,
+    "amplitude_panels": {
+      "large": {
+        "amplitude": 0.2,
+        "correct_checkpoint_count": 3,
+        "random_checkpoint_count": 3,
+        "rank_zero_checkpoint_count": 3,
+        "specificity_pass": false,
+        "specificity_valid_checkpoint_count": 0
+      },
+      "medium": {
+        "amplitude": 0.1,
+        "correct_checkpoint_count": 3,
+        "random_checkpoint_count": 3,
+        "rank_zero_checkpoint_count": 3,
+        "specificity_pass": false,
+        "specificity_valid_checkpoint_count": 0
+      },
+      "small": {
+        "amplitude": 0.05,
+        "correct_checkpoint_count": 3,
+        "random_checkpoint_count": 3,
+        "rank_zero_checkpoint_count": 3,
+        "specificity_pass": false,
+        "specificity_valid_checkpoint_count": 0
+      }
+    },
+    "large_horizon_effect_ratio": 0.7137463788349208,
+    "large_position_hidden_cosine": 0.8633781770613065,
+    "primary_conclusion": "position intervention not supported within the tested setting",
+    "velocity_hidden_cosine": 0.8863602505628381
+  },
+  "low_rank_velocity_carrier": {
+    "addressable_selected_rank": 4,
+    "beta": 1.0,
+    "development_rank4_passing_checkpoint_count": 3,
+    "development_rank_profile": [
+      {
+        "passes_two_of_three": false,
+        "passing_checkpoint_count": 0,
+        "rank": 1
+      },
+      {
+        "passes_two_of_three": false,
+        "passing_checkpoint_count": 1,
+        "rank": 2
+      },
+      {
+        "passes_two_of_three": true,
+        "passing_checkpoint_count": 3,
+        "rank": 4
+      },
+      {
+        "passes_two_of_three": true,
+        "passing_checkpoint_count": 3,
+        "rank": 8
+      },
+      {
+        "passes_two_of_three": true,
+        "passing_checkpoint_count": 3,
+        "rank": 12
+      },
+      {
+        "passes_two_of_three": true,
+        "passing_checkpoint_count": 3,
+        "rank": 16
+      },
+      {
+        "passes_two_of_three": true,
+        "passing_checkpoint_count": 3,
+        "rank": 20
+      },
+      {
+        "passes_two_of_three": true,
+        "passing_checkpoint_count": 3,
+        "rank": 32
+      }
+    ],
+    "mandatory_controls_pass": true,
+    "oracle_selected_rank": 4,
+    "ranks": [
+      1,
+      2,
+      4,
+      8,
+      12,
+      16,
+      20,
+      32
+    ],
+    "replication_minimum_passing_checkpoint_count": 2,
+    "replication_panel_pass": true,
+    "replication_passing_checkpoint_count": 2,
+    "ridge_lambda": 0.0001
+  },
+  "native_counterfactual_adequacy": {
+    "combined_passing_seed_count": 6,
+    "combined_seed_count": 6,
+    "development": {
+      "cell_count": 18,
+      "eligible_G0_G1_joint_miss_count": 6,
+      "evaluation_unit_count_per_seed": 512,
+      "passing_cell_count": 18,
+      "passing_seed_count": 3,
+      "route_record_count": 4608,
+      "seed_count": 3,
+      "seeds": [
+        291101,
+        291102,
+        291103
+      ]
+    },
+    "replication": {
+      "cell_count": 18,
+      "eligible_G0_G1_joint_miss_count": 30,
+      "evaluation_unit_count_per_seed": 512,
+      "minimum_cell_joint_coverage": 0.921875,
+      "passing_cell_count": 18,
+      "passing_seed_count": 3,
+      "route_record_count": 4608,
+      "seed_count": 3,
+      "seeds": [
+        291301,
+        291302,
+        291303
+      ]
+    },
+    "unit_perfect": false
+  },
+  "schema_version": "public-paper-summary-v1",
+  "temporal_stability": {
+    "all_anchor_panels_pass": true,
+    "all_transport_panels_pass": true,
+    "anchor_results": {
+      "5": {
+        "passes_2_of_3_rule": true,
+        "passing_checkpoint_count": 2,
+        "rank": 4,
+        "seed_both_strata_pass": {
+          "291301": true,
+          "291302": true,
+          "291303": false
+        }
+      },
+      "6": {
+        "passes_2_of_3_rule": true,
+        "passing_checkpoint_count": 2,
+        "rank": 4,
+        "seed_both_strata_pass": {
+          "291301": true,
+          "291302": true,
+          "291303": false
+        }
+      },
+      "7": {
+        "passes_2_of_3_rule": true,
+        "passing_checkpoint_count": 2,
+        "rank": 4,
+        "seed_both_strata_pass": {
+          "291301": true,
+          "291302": true,
+          "291303": false
+        }
+      },
+      "8": {
+        "passes_2_of_3_rule": true,
+        "passing_checkpoint_count": 2,
+        "rank": 4,
+        "seed_both_strata_pass": {
+          "291301": true,
+          "291302": true,
+          "291303": false
+        }
+      },
+      "9": {
+        "passes_2_of_3_rule": true,
+        "passing_checkpoint_count": 2,
+        "rank": 4,
+        "seed_both_strata_pass": {
+          "291301": true,
+          "291302": true,
+          "291303": false
+        }
+      }
+    },
+    "anchors": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "primary_record_count": 6912,
+    "taxonomy": "time-stable addressable carrier",
+    "transport_results": {
+      "5": {
+        "passes_2_of_3_rule": true,
+        "passing_checkpoint_count": 2,
+        "seed_both_strata_pass": {
+          "291301": true,
+          "291302": true,
+          "291303": false
+        }
+      },
+      "6": {
+        "passes_2_of_3_rule": true,
+        "passing_checkpoint_count": 2,
+        "seed_both_strata_pass": {
+          "291301": true,
+          "291302": true,
+          "291303": false
+        }
+      },
+      "8": {
+        "passes_2_of_3_rule": true,
+        "passing_checkpoint_count": 2,
+        "seed_both_strata_pass": {
+          "291301": true,
+          "291302": true,
+          "291303": false
+        }
+      },
+      "9": {
+        "passes_2_of_3_rule": true,
+        "passing_checkpoint_count": 2,
+        "seed_both_strata_pass": {
+          "291301": true,
+          "291302": true,
+          "291303": false
+        }
+      }
+    },
+    "transport_targets": [
+      5,
+      6,
+      8,
+      9
+    ]
+  }
+}
