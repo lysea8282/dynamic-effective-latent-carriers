@@ -7,8 +7,8 @@
         "model loading"
       ],
       "path": "checkpoints/CHECKPOINT_MANIFEST.json",
-      "sha256": "A1D9D9E41503C9BA8594938C276F420A3A8E4E0A7C9B5C2EC5E2E22E9933D2F1",
-      "size_bytes": 43441,
+      "sha256": "9BCCAF10F1394A191E2B42855CC8AABAE8019E1B2EF1C36513E2E3F2B568B82C",
+      "size_bytes": 42085,
       "type": "checkpoint manifest"
     },
     {
@@ -1363,8 +1363,8 @@
         "intervention_specificity"
       ],
       "path": "configs/intervention_specificity/evaluation.json",
-      "sha256": "100325D8D7E2E962D7D2AF4B61FBE15342D5C3943471599A16F1FD7D93AC4B0F",
-      "size_bytes": 175,
+      "sha256": "858081A97CB2C2E5BB0FE4A69D6D5AA3135639758C47EA15C786290319C2AEBA",
+      "size_bytes": 163,
       "type": "frozen configuration"
     },
     {
@@ -1372,8 +1372,8 @@
         "low_rank_velocity_carrier"
       ],
       "path": "configs/low_rank_velocity_carrier/evaluation.json",
-      "sha256": "F79FC3975D5742FF6C771E15BCCD9B466A254D96BA217497DD38FE51632D013A",
-      "size_bytes": 221,
+      "sha256": "DD12B3C0A6E5EAA77BD0408BA1766085D61EB5F48A8339F1E0E39DBB5FDF4CDC",
+      "size_bytes": 204,
       "type": "frozen configuration"
     },
     {
@@ -1381,8 +1381,8 @@
         "native_counterfactual_adequacy"
       ],
       "path": "configs/native_counterfactual_adequacy/training.json",
-      "sha256": "1980847F9DA178C29CA84BF2F829BA7FC50A274D2F300AFCEA5B2418308F39F8",
-      "size_bytes": 564,
+      "sha256": "766B6DCFC93E63F364441697E93520642E7B5B734C944A5FB8906890353F866F",
+      "size_bytes": 533,
       "type": "frozen configuration"
     },
     {
@@ -1390,8 +1390,8 @@
         "temporal_stability"
       ],
       "path": "configs/temporal_stability/evaluation.json",
-      "sha256": "E6BD336B7D0FA47E1257B5AD92D0B65FDB1A948476C7EF9619708853D76514D3",
-      "size_bytes": 180,
+      "sha256": "E67A39AF5DD6EFDE3F8E20DF950F4E0CA98909EE640FD299462FBDA659E5666A",
+      "size_bytes": 163,
       "type": "frozen configuration"
     },
     {
@@ -1399,8 +1399,8 @@
         "artifact verification"
       ],
       "path": "data/DATASET_MANIFEST.json",
-      "sha256": "806FCE9F79BD4E3FECC9C08BC5255D21F5708A3155654C0E7BA0A83195E21E67",
-      "size_bytes": 5382,
+      "sha256": "01046119ECF4889A52B6E35F09CD3B980B11C2AFC7A7AE49CB20AA776CC44D73",
+      "size_bytes": 5248,
       "type": "dataset manifest"
     },
     {
@@ -1537,8 +1537,8 @@
       ],
       "numeric_content_sha256": "D43D1B2B8794B659384E1F523B40C483B3D33777D2AE4C8617AD6F47DCAF1C00",
       "path": "results/expected/detailed/event_phase.json",
-      "sha256": "182697A5606BBA516BA5A67F8843BDCCBC2BE116A053E78C3457D627D81D6A73",
-      "size_bytes": 7334,
+      "sha256": "323E0FFA9D02A1EF87E3D47AFD169B4DD8321E7377434D262D13E9588BE77F85",
+      "size_bytes": 7054,
       "type": "detailed frozen result"
     },
     {
@@ -1547,8 +1547,8 @@
       ],
       "numeric_content_sha256": "DE5B73B7AE66EC1505F6198B16168847EA83584D5011FC2DAB1F1FB7DAE6D4CC",
       "path": "results/expected/detailed/intervention_specificity.json",
-      "sha256": "BD0B209306596A0300DEB87A5425FE797C892D6826C3EE33BCD88AEF2F710341",
-      "size_bytes": 126226,
+      "sha256": "757E023BE7838ACB26CD3DF01C62EC364E9677A14136465872C6BB3BBC8D1161",
+      "size_bytes": 123081,
       "type": "detailed frozen result"
     },
     {
@@ -1557,8 +1557,8 @@
       ],
       "numeric_content_sha256": "7A50CBC9025B7614AF110B93181C383F1FE0F78DDCF6F315BF8B99AD19E3D141",
       "path": "results/expected/detailed/metric_thresholds.json",
-      "sha256": "8463E265987FA84CA7826CAE05040A55C0FDFAC55868F269DFB7705BDA0A4958",
-      "size_bytes": 13124,
+      "sha256": "7C48BCAB940B797150C7508FE60C254E3FCFF7581FF969F70233FC823B5749F3",
+      "size_bytes": 12833,
       "type": "detailed frozen result"
     },
     {
@@ -1567,8 +1567,8 @@
       ],
       "numeric_content_sha256": "0B91F8FE7CA216442CDC28FC5E8E756A0343509B2CDB9F4E424611AE286B8E09",
       "path": "results/expected/detailed/native_counterfactual_adequacy.json",
-      "sha256": "610FBB5E0FE37FF596C5D41EE28043386DC5EA577D24FD5211678F907DEB7A6E",
-      "size_bytes": 1407,
+      "sha256": "5CACAAEADE2228B9717A759FF1D602429D7020E8C2FD58137CB96F7B4B0D343E",
+      "size_bytes": 1360,
       "type": "detailed frozen result"
     },
     {
@@ -1577,8 +1577,8 @@
       ],
       "numeric_content_sha256": "58F27E5CEB5ACDA48D6B92CBD4771AF6F43A2E5CF74C4A9FC0F720B4E45AEA38",
       "path": "results/expected/detailed/temporal_stability.json",
-      "sha256": "22A716FCA29F8B141F30D0D0434CDB159487B63EA49FBBEEF9FF30D280B4ED15",
-      "size_bytes": 2660,
+      "sha256": "865AEACF564E5C03811353FF1DF89D6E4340AB566138CAFF6D6F24C08641321E",
+      "size_bytes": 2554,
       "type": "detailed frozen result"
     },
     {
@@ -1587,8 +1587,8 @@
       ],
       "numeric_content_sha256": "74FD5B28EB2413E2D5EB1DC531517C2ACC4E58AC22F229136B59A91B61ADC3F8",
       "path": "results/expected/detailed/velocity_carrier_development.json",
-      "sha256": "D3E6C7B8FED14B0B47BB6A0711726BF47D9DFAF737E833DCE37B776450A410FB",
-      "size_bytes": 347605,
+      "sha256": "65794C1D110E3E0CC8659BCA122801E74C5473D8CEF01E995A0538F202786E99",
+      "size_bytes": 336374,
       "type": "detailed frozen result"
     },
     {
@@ -1597,8 +1597,8 @@
       ],
       "numeric_content_sha256": "B20259B607277B98EC9D3DED3AFE3E94E9524011F5CA4CC9E34C65972DD416EB",
       "path": "results/expected/detailed/velocity_carrier_replication.json",
-      "sha256": "18140F3832953018E8AAC5E1C8D74A52DC23C712E43E7B54E811F246E1949866",
-      "size_bytes": 1187,
+      "sha256": "F837296E70D53061349B5FD84E7839017FBC26FDA494BBB8140012EA96A12B00",
+      "size_bytes": 1148,
       "type": "detailed frozen result"
     },
     {
@@ -1608,8 +1608,8 @@
         "table rendering"
       ],
       "path": "results/expected/paper_summary.json",
-      "sha256": "4C1E9BFB5632C2DB125CB43A52A134053CC7B7961817E238D12CFF49107BD9EC",
-      "size_bytes": 6423,
+      "sha256": "7387B0D2869EF9959EB315AFB21579C2C8747C18708DFF11BC1AE31C7B4F12C6",
+      "size_bytes": 6173,
       "type": "paper summary"
     }
   ],

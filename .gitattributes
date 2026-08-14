@@ -1,3 +1,21 @@
+# Canonical public-repository text representation: LF on every platform.
+* text=auto
+
+*.py text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.csv text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.toml text eol=lf
+*.txt text eol=lf
+*.cff text eol=lf
+*.gitignore text eol=lf
+*.gitattributes text eol=lf
+*.gitkeep text eol=lf
+LICENSE text eol=lf
+
+# Preserve the established Git LFS patterns and disable text conversion.
 *.pt filter=lfs diff=lfs merge=lfs -text
 *.npz filter=lfs diff=lfs merge=lfs -text
 data/**/*.jsonl filter=lfs diff=lfs merge=lfs -text
