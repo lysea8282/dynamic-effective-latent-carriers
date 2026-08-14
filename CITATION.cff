@@ -3,9 +3,17 @@ message: "If you use this repository, please cite the accompanying paper."
 title: "Dynamic Effective Latent Carriers"
 type: software
 version: 0.1.0
-date-released: 2026-08-10
 authors:
-  - family-names: "Authors"
-    given-names: "Dynamic Effective Latent Carriers"
-repository-code: "https://github.com/PROJECT-TO-BE-ASSIGNED/dynamic-effective-latent-carriers"
+  - family-names: "Liu"
+    given-names: "Yang"
+  - family-names: "Chen"
+    given-names: "Yuming"
 license: MIT
+preferred-citation:
+  type: article
+  title: "Low-Rank Dynamics-Effective Latent Carriers for Counterfactual Rollout in Learned World Models"
+  authors:
+    - family-names: "Liu"
+      given-names: "Yang"
+    - family-names: "Chen"
+      given-names: "Yuming"

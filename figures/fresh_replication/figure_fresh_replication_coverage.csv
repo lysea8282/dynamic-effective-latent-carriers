@@ -1,0 +1,7 @@
+model_label,stratum,coverage,threshold,cell_pass,model_pass
+Fresh model 1,S1: non-contact,0.8671875,0.80,true,true
+Fresh model 1,S2: interaction-sensitive,0.9140625,0.80,true,true
+Fresh model 2,S1: non-contact,1.0000000,0.80,true,true
+Fresh model 2,S2: interaction-sensitive,0.9218750,0.80,true,true
+Fresh model 3,S1: non-contact,0.7109375,0.80,false,false
+Fresh model 3,S2: interaction-sensitive,0.97265625,0.80,true,false

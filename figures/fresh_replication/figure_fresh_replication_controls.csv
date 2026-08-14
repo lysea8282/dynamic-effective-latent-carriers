@@ -1,0 +1,9 @@
+control_label,aggregation_level,criterion_satisfied_n,denominator,observed_target_pass_n,outcome_note
+Reference / reconstruction,model x stratum cell,6,6,,Factual and full-hidden references plus simulator reconstruction satisfied in 6/6 cells
+Full-hidden equivalence,model x stratum cell,6,6,,Criterion satisfied in 6/6 cells
+Sham no-op,model x stratum cell,6,6,,Criterion satisfied in 6/6 cells
+Rank-zero no-op,model x stratum cell,6,6,,Criterion satisfied in 6/6 cells
+Wrong-object specificity,model x stratum cell,6,6,,Criterion satisfied in 6/6 cells
+Wrong-time specificity,model x stratum cell,6,6,,Criterion satisfied in 6/6 cells
+Leakage / identity-order checks,model x stratum cell,6,6,,Both criteria satisfied in 6/6 cells
+Random orthogonal equal norm,fresh model,3,3,0,0/3 fresh models passed both strata; negative-control criterion satisfied

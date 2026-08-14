@@ -1,15 +1,36 @@
 from __future__ import annotations
 
 import csv
+import subprocess
+import sys
 from pathlib import Path
 from typing import Any
 
-import matplotlib
-
-matplotlib.use("Agg")
-import matplotlib.pyplot as plt
-
 from .utils import read_json
+
+
+PAPER_FIGURES = [
+    (
+        "rank_transition",
+        "plot_rank_transition_and_spectrum.py",
+        "figure_rank_transition_and_spectrum",
+    ),
+    (
+        "fresh_replication",
+        "plot_fresh_replication_and_controls.py",
+        "figure_fresh_replication_and_controls",
+    ),
+    (
+        "temporal_robustness",
+        "plot_figure_temporal_robustness.py",
+        "figure_temporal_robustness",
+    ),
+    (
+        "position_stress_test",
+        "plot_position_stress_test.py",
+        "figure_position_stress_test",
+    ),
+]
 
 
 def _summary(root: Path) -> dict[str, Any]:
@@ -18,60 +39,20 @@ def _summary(root: Path) -> dict[str, Any]:
 
 
 def generate_figures(root: Path) -> list[Path]:
-    summary = _summary(root)
-    output = root / "figures"
-    output.mkdir(parents=True, exist_ok=True)
     created: list[Path] = []
-
-    rank = summary["low_rank_velocity_carrier"]
-    profile = rank["development_rank_profile"]
-    ranks = [item["rank"] for item in profile]
-    passing = [item["passing_checkpoint_count"] for item in profile]
-    fig, axis = plt.subplots(figsize=(6.4, 4.0))
-    axis.plot(ranks, passing, marker="o", linewidth=2)
-    axis.axhline(2, color="black", linestyle="--", linewidth=1, label="2-of-3 threshold")
-    axis.axvline(rank["addressable_selected_rank"], color="#b23a48", linestyle=":", label="selected rank")
-    axis.set(xlabel="Carrier rank", ylabel="Passing checkpoints", xticks=ranks, ylim=(-0.1, 3.2))
-    axis.legend(frameon=False)
-    fig.tight_layout()
-    path = output / "rank_transition.png"
-    fig.savefig(path, dpi=180)
-    plt.close(fig)
-    created.append(path)
-
-    temporal = summary["temporal_stability"]
-    anchors = temporal["anchors"]
-    counts = [temporal["anchor_results"][str(anchor)]["passing_checkpoint_count"] for anchor in anchors]
-    fig, axis = plt.subplots(figsize=(6.4, 4.0))
-    axis.bar([str(anchor) for anchor in anchors], counts, color="#3572a5")
-    axis.axhline(2, color="black", linestyle="--", linewidth=1)
-    axis.set(xlabel="Anchor", ylabel="Passing checkpoints", ylim=(0, 3.2))
-    fig.tight_layout()
-    path = output / "temporal_stability.png"
-    fig.savefig(path, dpi=180)
-    plt.close(fig)
-    created.append(path)
-
-    position = summary["intervention_specificity"]["amplitude_panels"]
-    labels = ["small", "medium", "large"]
-    correct = [position[label]["correct_checkpoint_count"] for label in labels]
-    random = [position[label]["random_checkpoint_count"] for label in labels]
-    rank_zero = [position[label]["rank_zero_checkpoint_count"] for label in labels]
-    specificity = [position[label]["specificity_valid_checkpoint_count"] for label in labels]
-    x = range(len(labels))
-    fig, axis = plt.subplots(figsize=(7.0, 4.2))
-    width = 0.2
-    axis.bar([v - 1.5 * width for v in x], correct, width, label="correct")
-    axis.bar([v - 0.5 * width for v in x], random, width, label="random")
-    axis.bar([v + 0.5 * width for v in x], rank_zero, width, label="rank zero")
-    axis.bar([v + 1.5 * width for v in x], specificity, width, label="specificity valid")
-    axis.set(xticks=list(x), xticklabels=labels, ylabel="Checkpoint count", ylim=(0, 3.2))
-    axis.legend(frameon=False, ncol=2)
-    fig.tight_layout()
-    path = output / "intervention_specificity.png"
-    fig.savefig(path, dpi=180)
-    plt.close(fig)
-    created.append(path)
+    for directory_name, script_name, output_basename in PAPER_FIGURES:
+        figure_dir = root / "figures" / directory_name
+        script_path = figure_dir / script_name
+        subprocess.run(
+            [sys.executable, str(script_path)],
+            cwd=figure_dir,
+            check=True,
+        )
+        for suffix in (".png", ".pdf"):
+            output_path = figure_dir / f"{output_basename}{suffix}"
+            if not output_path.is_file() or output_path.stat().st_size == 0:
+                raise RuntimeError(f"figure script did not create {output_path}")
+            created.append(output_path)
     return created
 
 

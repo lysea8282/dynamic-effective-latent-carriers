@@ -1,0 +1,25 @@
+model_label,rank,cumulative_uncentered_second_moment_ratio
+Development model 1,1,0.2996710667612665
+Development model 1,2,0.5841257315734404
+Development model 1,4,0.823883866943921
+Development model 1,8,0.9500005981863016
+Development model 1,12,0.9884571765110276
+Development model 1,16,0.9974425156635014
+Development model 1,20,0.9991455340894981
+Development model 1,32,1.0
+Development model 2,1,0.31489880000343434
+Development model 2,2,0.618475101397248
+Development model 2,4,0.8017959074959805
+Development model 2,8,0.9349573532439178
+Development model 2,12,0.988926312174797
+Development model 2,16,0.9971066480680256
+Development model 2,20,0.9992689176000525
+Development model 2,32,1.0
+Development model 3,1,0.2956403430337733
+Development model 3,2,0.5533945994604136
+Development model 3,4,0.8655577359146452
+Development model 3,8,0.9667976786298256
+Development model 3,12,0.9942006155676048
+Development model 3,16,0.9987850685176451
+Development model 3,20,0.999592167053197
+Development model 3,32,1.0

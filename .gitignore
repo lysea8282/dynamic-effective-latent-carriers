@@ -10,6 +10,8 @@ results/reproduced/*
 !results/reproduced/.gitkeep
 figures/*.png
 figures/*.pdf
+figures/**/*.png
+figures/**/*.pdf
 !figures/README.md
 tables/*.csv
 tables/*.md
