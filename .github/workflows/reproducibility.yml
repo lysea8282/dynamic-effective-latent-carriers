@@ -1,0 +1,80 @@
+name: Reproducibility CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test-and-reproduce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    env:
+      PYTHONUNBUFFERED: "1"
+      MPLBACKEND: "Agg"
+
+    steps:
+      - name: Checkout repository and LFS files
+        uses: actions/checkout@v7
+        with:
+          lfs: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Show environment
+        run: |
+          python --version
+          git lfs version
+          git lfs ls-files
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
+
+      - name: Verify packaged artifacts
+        run: |
+          python scripts/verify_artifacts.py
+
+      - name: Compile Python sources
+        run: |
+          python -m compileall -q src scripts experiments tests figures
+
+      - name: Run tests
+        run: |
+          python -m pytest -q
+
+      - name: Reproduce main paper results
+        run: |
+          python scripts/reproduce_main_results.py
+
+      - name: Validate all frozen artifacts
+        run: |
+          python scripts/reproduce_all_results.py
+
+      - name: Regenerate paper figures
+        run: |
+          python scripts/generate_figures.py
+
+      - name: Upload reproduced outputs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: reproduced-paper-outputs
+          path: |
+            results/reproduced/
+            tables/
+            figures/**/*.png
+            figures/**/*.pdf
+          if-no-files-found: ignore
+          retention-days: 7
