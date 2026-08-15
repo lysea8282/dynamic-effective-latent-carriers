@@ -1,0 +1,9 @@
+control,stratum,native_panel,rank4_oracle_panel,addressable_affine_panel,native_future_dominance,rank4_oracle_future_dominance,addressable_future_dominance,localization
+matched_wrong_vector,S1_no_contact,true,true,true,0.984375,0.9765625,0.88671875,no_clear_specificity_loss
+matched_wrong_vector,S2_interaction_sensitive,true,true,false,0.87109375,0.86328125,0.69921875,loss_at_addressable_operator
+no_patch,S1_no_contact,true,true,true,1.0,1.0,0.9765625,no_clear_specificity_loss
+no_patch,S2_interaction_sensitive,true,true,false,0.87109375,0.8828125,0.70703125,loss_at_addressable_operator
+random_equal_norm,S1_no_contact,n/a,true,true,N/A,0.99609375,0.984375,no_clear_specificity_loss
+random_equal_norm,S2_interaction_sensitive,n/a,true,false,N/A,0.87890625,0.71875,loss_at_addressable_operator
+wrong_object,S1_no_contact,true,true,true,1.0,1.0,1.0,no_clear_specificity_loss
+wrong_object,S2_interaction_sensitive,false,false,false,0.90234375,0.9140625,0.7578125,limited_at_native

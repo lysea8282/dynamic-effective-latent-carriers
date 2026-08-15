@@ -1,5 +1,5 @@
 {
-  "artifact_count": 144,
+  "artifact_count": 171,
   "artifacts": [
     {
       "consumers": [
@@ -1533,6 +1533,249 @@
     },
     {
       "consumers": [
+        "public documentation"
+      ],
+      "path": "experiments/joint_velocity_composition/README.md",
+      "sha256": "6ECC08C1B8C9BACE4C3E512A5D2E19CDB66485B5A9087C8F059648F4B6CAAEE5",
+      "size_bytes": 3516,
+      "type": "joint-velocity experiment documentation"
+    },
+    {
+      "consumers": [
+        "joint-velocity evidence replay"
+      ],
+      "path": "experiments/joint_velocity_composition/data/affine_composition_equivalence.csv",
+      "sha256": "7F9CC899A6937CD0BB3F55D75CBBB459FA60AC98A176B0AB1C7A52355BBF1C32",
+      "size_bytes": 132445,
+      "type": "joint-velocity public evidence"
+    },
+    {
+      "consumers": [
+        "joint-velocity evidence replay"
+      ],
+      "path": "experiments/joint_velocity_composition/data/joint_composition_results.csv",
+      "sha256": "C46C44EDAC0A7A17FC8649C8ED62CFFE7760DCD10410912FFB5414FD932987CE",
+      "size_bytes": 3297323,
+      "type": "joint-velocity public evidence"
+    },
+    {
+      "consumers": [
+        "joint-velocity evidence replay"
+      ],
+      "path": "experiments/joint_velocity_composition/data/joint_composition_units.csv",
+      "sha256": "0FA454981F9D97751F93C2F636BD5C2E9E5002712E31ED851D2A1CB76303D4FC",
+      "size_bytes": 105401,
+      "type": "joint-velocity public evidence"
+    },
+    {
+      "consumers": [
+        "joint-velocity evidence replay"
+      ],
+      "path": "experiments/joint_velocity_composition/data/joint_specificity_pairs.csv",
+      "sha256": "D763ECF5CD63ABE9637157034EDDBD5619E8A7057EC50FC3BA97DCDF87FBBEF2",
+      "size_bytes": 9449,
+      "type": "joint-velocity public evidence"
+    },
+    {
+      "consumers": [
+        "joint-velocity evidence replay"
+      ],
+      "path": "experiments/joint_velocity_composition/data/minimal_joint_correction_summary.csv",
+      "sha256": "0DBC38ABDD76DCC56D64F5675653542F54B69A00872114D7474F7C2FE1D456AC",
+      "size_bytes": 772,
+      "type": "joint-velocity public evidence"
+    },
+    {
+      "consumers": [
+        "joint-velocity evidence replay"
+      ],
+      "path": "experiments/joint_velocity_composition/data/operator_extension_cells.csv",
+      "sha256": "5EEBAD24E423D0B5F6A55D5F52395104AFD45290B2A2D0E4F120AB4EF820B0C9",
+      "size_bytes": 8201,
+      "type": "joint-velocity public evidence"
+    },
+    {
+      "consumers": [
+        "joint-velocity evidence replay"
+      ],
+      "path": "experiments/joint_velocity_composition/data/operator_extension_specificity.csv",
+      "sha256": "7795B59D5EB7BF58A0CBC5AEE7E5BCF49175E3598F942822AFB7AFAA14A393C1",
+      "size_bytes": 17367,
+      "type": "joint-velocity public evidence"
+    },
+    {
+      "consumers": [
+        "joint-velocity evidence replay"
+      ],
+      "path": "experiments/joint_velocity_composition/data/operator_fit_diagnostics.csv",
+      "sha256": "97C213F27B050819B73CEBCAF61181FDDDED3B9DE68594D51B9EBB6D68009D4A",
+      "size_bytes": 2567,
+      "type": "joint-velocity public evidence"
+    },
+    {
+      "consumers": [
+        "joint-velocity evidence replay"
+      ],
+      "path": "experiments/joint_velocity_composition/data/operator_weights.json",
+      "sha256": "4B3B17584B3CEE374DB8AD8F04435F0E2530DD9909099AB4D97F2D8ED7A9BDDA",
+      "size_bytes": 33241,
+      "type": "joint-velocity public evidence"
+    },
+    {
+      "consumers": [
+        "joint-velocity evidence replay"
+      ],
+      "path": "experiments/joint_velocity_composition/data/public_source_manifest.json",
+      "sha256": "0B250B55E1028F7FE0F06A13C7AD0306D5BF1B160F2D5768C7CA17524D43BC33",
+      "size_bytes": 5100,
+      "type": "joint-velocity public evidence"
+    },
+    {
+      "consumers": [
+        "joint-velocity evidence replay"
+      ],
+      "path": "experiments/joint_velocity_composition/data/single_component_backward_compatibility.csv",
+      "sha256": "B4A4A7195B0CBD83C639A1556ED7433A174C4391B46692F376D3606F8E67E526",
+      "size_bytes": 2154,
+      "type": "joint-velocity public evidence"
+    },
+    {
+      "consumers": [
+        "joint-velocity evidence replay"
+      ],
+      "path": "experiments/joint_velocity_composition/data/single_component_specificity_baseline.csv",
+      "sha256": "CD94A9C32182A2B158FBA98F53FC7699C2BBA799C009A9A18499A2B1D3915E6E",
+      "size_bytes": 6730,
+      "type": "joint-velocity public evidence"
+    },
+    {
+      "consumers": [
+        "joint-velocity evidence replay"
+      ],
+      "path": "experiments/joint_velocity_composition/data/specificity_layer_localization.csv",
+      "sha256": "F6519149C526CC16B6E91C8AF49FDEFFFC4C9004EA8930FF6CD9ACE2B265377F",
+      "size_bytes": 983,
+      "type": "joint-velocity public evidence"
+    },
+    {
+      "consumers": [
+        "joint-velocity evidence replay"
+      ],
+      "path": "experiments/joint_velocity_composition/data/specificity_layer_results.csv",
+      "sha256": "33EE5D8EAF4EBAE71545BC2DD6EDC065C287E1B194D63E15889DC3C4A1769604",
+      "size_bytes": 11693,
+      "type": "joint-velocity public evidence"
+    },
+    {
+      "consumers": [
+        "joint-velocity expected-result check"
+      ],
+      "path": "experiments/joint_velocity_composition/expected/boundary_claim_summary.json",
+      "sha256": "49DD028F2A445CC797EC8CE9C527EF2E193EEBA3DAF1E8BC099CFD54A9B0A1F8",
+      "size_bytes": 846,
+      "type": "frozen joint-velocity summary"
+    },
+    {
+      "consumers": [
+        "joint-velocity expected-result check"
+      ],
+      "path": "experiments/joint_velocity_composition/expected/joint_composition_summary.json",
+      "sha256": "D6A79B4900D8A98BF8763A3463B4AC6A357B0CE960C9A06C473D0799C4330200",
+      "size_bytes": 12636,
+      "type": "frozen joint-velocity summary"
+    },
+    {
+      "consumers": [
+        "joint-velocity expected-result check"
+      ],
+      "path": "experiments/joint_velocity_composition/expected/operator_extension_summary.json",
+      "sha256": "AAFFFDD70CD73F95CEA00475F832AB5F79A209551AAC9189D73FF2F0E9860528",
+      "size_bytes": 15962,
+      "type": "frozen joint-velocity summary"
+    },
+    {
+      "consumers": [
+        "joint-velocity expected-result check"
+      ],
+      "path": "experiments/joint_velocity_composition/expected/specificity_calibration_summary.json",
+      "sha256": "57D90DC33E451956A4821A8B5F4EFDCA89DA8F73F4E49B79B165D6C0B172B605",
+      "size_bytes": 4888,
+      "type": "frozen joint-velocity summary"
+    },
+    {
+      "consumers": [
+        "joint-velocity expected-result check"
+      ],
+      "path": "experiments/joint_velocity_composition/expected/specificity_layer_summary.json",
+      "sha256": "3DC6C82F57A67BF47E1F64828E4C7632B277FE655AAC26C080CEB34843964B70",
+      "size_bytes": 4926,
+      "type": "frozen joint-velocity summary"
+    },
+    {
+      "consumers": [
+        "joint-velocity evidence replay"
+      ],
+      "path": "experiments/joint_velocity_composition/scripts/joint_velocity.py",
+      "sha256": "17A3FE4837AAE150531FB5EF24287971EDD5886D7C06598FAB4D77B9C2AF842D",
+      "size_bytes": 23589,
+      "type": "joint-velocity reproduction script"
+    },
+    {
+      "consumers": [
+        "joint-velocity evidence replay"
+      ],
+      "path": "experiments/joint_velocity_composition/scripts/reproduce_joint_composition.py",
+      "sha256": "B69B11F506F3D1D2A20E72FDFD4DE245299CFA23BF54EFA8FEDA0FA36FEC02D6",
+      "size_bytes": 188,
+      "type": "joint-velocity reproduction script"
+    },
+    {
+      "consumers": [
+        "joint-velocity evidence replay"
+      ],
+      "path": "experiments/joint_velocity_composition/scripts/reproduce_operator_extension.py",
+      "sha256": "D352438137FB4FF20B0E4EAF30D6FCC22A8A77F4875C35135FD6ECF28EE1BC11",
+      "size_bytes": 189,
+      "type": "joint-velocity reproduction script"
+    },
+    {
+      "consumers": [
+        "joint-velocity evidence replay"
+      ],
+      "path": "experiments/joint_velocity_composition/scripts/reproduce_specificity_calibration.py",
+      "sha256": "DAE7B6F2988AA25900245D966BDF73F795F8D3533D488818D9BD6F9FF6649D7A",
+      "size_bytes": 194,
+      "type": "joint-velocity reproduction script"
+    },
+    {
+      "consumers": [
+        "joint-velocity evidence replay"
+      ],
+      "path": "experiments/joint_velocity_composition/scripts/reproduce_specificity_layer_localization.py",
+      "sha256": "7C770E65F1893BC586E87D0707109C53136602E0F7DDEBDC19D9A0273C629BCB",
+      "size_bytes": 188,
+      "type": "joint-velocity reproduction script"
+    },
+    {
+      "consumers": [
+        "joint-velocity evidence replay"
+      ],
+      "path": "experiments/joint_velocity_composition/scripts/summarize_joint_composition_boundary.py",
+      "sha256": "71B8ABC3299664DF2026C51757441C5B18C992881F0FCB5FA51BA70D74C95742",
+      "size_bytes": 188,
+      "type": "joint-velocity reproduction script"
+    },
+    {
+      "consumers": [
+        "pytest"
+      ],
+      "path": "experiments/joint_velocity_composition/tests/test_joint_velocity_composition.py",
+      "sha256": "2ADEA1ABA7E0ED88F1473F38DDD06CAA8B0A649F73A979BB57093D75344EC784",
+      "size_bytes": 11400,
+      "type": "joint-velocity release test"
+    },
+    {
+      "consumers": [
         "event_phase"
       ],
       "numeric_content_sha256": "D43D1B2B8794B659384E1F523B40C483B3D33777D2AE4C8617AD6F47DCAF1C00",
@@ -1623,5 +1866,5 @@
     ]
   },
   "schema_version": "public-artifact-manifest-v1",
-  "total_size_bytes": 118143916
+  "total_size_bytes": 121839096
 }

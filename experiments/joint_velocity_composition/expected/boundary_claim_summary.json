@@ -1,0 +1,20 @@
+{
+  "addressable_layer_specificity_loss_observed": true,
+  "affine_component_composition_exact": true,
+  "carrier_capacity_not_equal_compositional_addressability": true,
+  "development_only": true,
+  "experiment": "joint_velocity_composition",
+  "full_joint_specificity_claim_allowed": false,
+  "joint_absolute_rollout_supported": true,
+  "joint_aware_affine_closes_gap": false,
+  "joint_full_specificity_established": false,
+  "joint_native_adequacy_supported": true,
+  "minimal_joint_correction_closes_gap": false,
+  "primary_single_component_claim_changed": false,
+  "rank4_joint_capacity_supported": true,
+  "schema_version": "1.0",
+  "single_component_specificity_baseline_stronger": true,
+  "specificity_calibration_compatible": true,
+  "specificity_layer_localization": "mixed_layer_loss",
+  "wrong_object_native_ceiling_observed": true
+}

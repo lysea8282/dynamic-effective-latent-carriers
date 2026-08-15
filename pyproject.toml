@@ -23,5 +23,5 @@ test = ["pytest==9.1.1"]
 where = ["src"]
 
 [tool.pytest.ini_options]
-testpaths = ["tests"]
+testpaths = ["tests", "experiments/joint_velocity_composition/tests"]
 addopts = "-q"

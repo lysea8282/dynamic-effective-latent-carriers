@@ -1,0 +1,188 @@
+{
+  "addressable_layer_specificity_loss_observed": true,
+  "localization": [
+    {
+      "control": "matched_wrong_vector",
+      "label": "no_clear_specificity_loss",
+      "stratum": "S1_no_contact"
+    },
+    {
+      "control": "matched_wrong_vector",
+      "label": "loss_at_addressable_operator",
+      "stratum": "S2_interaction_sensitive"
+    },
+    {
+      "control": "no_patch",
+      "label": "no_clear_specificity_loss",
+      "stratum": "S1_no_contact"
+    },
+    {
+      "control": "no_patch",
+      "label": "loss_at_addressable_operator",
+      "stratum": "S2_interaction_sensitive"
+    },
+    {
+      "control": "random_equal_norm",
+      "label": "no_clear_specificity_loss",
+      "stratum": "S1_no_contact"
+    },
+    {
+      "control": "random_equal_norm",
+      "label": "loss_at_addressable_operator",
+      "stratum": "S2_interaction_sensitive"
+    },
+    {
+      "control": "wrong_object",
+      "label": "no_clear_specificity_loss",
+      "stratum": "S1_no_contact"
+    },
+    {
+      "control": "wrong_object",
+      "label": "limited_at_native",
+      "stratum": "S2_interaction_sensitive"
+    }
+  ],
+  "model_count": 3,
+  "overall_localization": "mixed_layer_loss",
+  "paired_dominance_threshold": 0.8,
+  "panels": {
+    "matched_wrong_vector": {
+      "S1_no_contact": {
+        "addressable_affine": {
+          "panel_pass": true,
+          "passing_model_count": 2,
+          "required_model_count": 2
+        },
+        "native_joint": {
+          "panel_pass": true,
+          "passing_model_count": 3,
+          "required_model_count": 2
+        },
+        "rank4_oracle": {
+          "panel_pass": true,
+          "passing_model_count": 3,
+          "required_model_count": 2
+        }
+      },
+      "S2_interaction_sensitive": {
+        "addressable_affine": {
+          "panel_pass": false,
+          "passing_model_count": 0,
+          "required_model_count": 2
+        },
+        "native_joint": {
+          "panel_pass": true,
+          "passing_model_count": 3,
+          "required_model_count": 2
+        },
+        "rank4_oracle": {
+          "panel_pass": true,
+          "passing_model_count": 3,
+          "required_model_count": 2
+        }
+      }
+    },
+    "no_patch": {
+      "S1_no_contact": {
+        "addressable_affine": {
+          "panel_pass": true,
+          "passing_model_count": 3,
+          "required_model_count": 2
+        },
+        "native_joint": {
+          "panel_pass": true,
+          "passing_model_count": 3,
+          "required_model_count": 2
+        },
+        "rank4_oracle": {
+          "panel_pass": true,
+          "passing_model_count": 3,
+          "required_model_count": 2
+        }
+      },
+      "S2_interaction_sensitive": {
+        "addressable_affine": {
+          "panel_pass": false,
+          "passing_model_count": 0,
+          "required_model_count": 2
+        },
+        "native_joint": {
+          "panel_pass": true,
+          "passing_model_count": 2,
+          "required_model_count": 2
+        },
+        "rank4_oracle": {
+          "panel_pass": true,
+          "passing_model_count": 2,
+          "required_model_count": 2
+        }
+      }
+    },
+    "random_equal_norm": {
+      "S1_no_contact": {
+        "addressable_affine": {
+          "panel_pass": true,
+          "passing_model_count": 3,
+          "required_model_count": 2
+        },
+        "native_joint": null,
+        "rank4_oracle": {
+          "panel_pass": true,
+          "passing_model_count": 3,
+          "required_model_count": 2
+        }
+      },
+      "S2_interaction_sensitive": {
+        "addressable_affine": {
+          "panel_pass": false,
+          "passing_model_count": 0,
+          "required_model_count": 2
+        },
+        "native_joint": null,
+        "rank4_oracle": {
+          "panel_pass": true,
+          "passing_model_count": 2,
+          "required_model_count": 2
+        }
+      }
+    },
+    "wrong_object": {
+      "S1_no_contact": {
+        "addressable_affine": {
+          "panel_pass": true,
+          "passing_model_count": 3,
+          "required_model_count": 2
+        },
+        "native_joint": {
+          "panel_pass": true,
+          "passing_model_count": 3,
+          "required_model_count": 2
+        },
+        "rank4_oracle": {
+          "panel_pass": true,
+          "passing_model_count": 3,
+          "required_model_count": 2
+        }
+      },
+      "S2_interaction_sensitive": {
+        "addressable_affine": {
+          "panel_pass": false,
+          "passing_model_count": 0,
+          "required_model_count": 2
+        },
+        "native_joint": {
+          "panel_pass": false,
+          "passing_model_count": 1,
+          "required_model_count": 2
+        },
+        "rank4_oracle": {
+          "panel_pass": false,
+          "passing_model_count": 1,
+          "required_model_count": 2
+        }
+      }
+    }
+  },
+  "schema_version": "1.0",
+  "wrong_object_native_ceiling_observed": true
+}

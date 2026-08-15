@@ -6,6 +6,8 @@
 
 `python scripts/reproduce_all_results.py` adds exhaustive packaged-record validation and loads every checkpoint and fitted carrier. It checks that all JSONL rows parse, all arrays are finite, carrier bases are orthonormal within tolerance, and checkpoint parameter counts match the documented topology.
 
+The full command also runs the lightweight joint-velocity boundary evidence replay. Its component commands live under `experiments/joint_velocity_composition/scripts/`; they validate compact public tables, reproduce the joint-capacity, specificity-calibration, layer-localization, and operator-extension summaries, and compare each summary with its frozen expected record.
+
 ## From-scratch training replication
 
 Pass `--retrain` to the full command. Training uses the packaged training split, deterministic seeds, 70 epochs, 24 batches per epoch, batch size 96, AdamW with learning rate 0.0015 and weight decay 0.00001, and cosine decay to 0.00015. The objective weights are fixed in `configs/native_counterfactual_adequacy/training.json`.

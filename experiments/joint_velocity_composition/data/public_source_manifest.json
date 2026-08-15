@@ -1,0 +1,157 @@
+{
+  "allowed_absolute_component_magnitudes": [
+    0.0660007618367672,
+    0.1320015236735344
+  ],
+  "anchor": 7,
+  "autonomous_transitions": 12,
+  "beta": 1.0,
+  "checkpoint_count": 3,
+  "checkpoint_public_labels": [
+    "development_model_1",
+    "development_model_2",
+    "development_model_3"
+  ],
+  "code_files": [
+    {
+      "path": "experiments/joint_velocity_composition/scripts/joint_velocity.py",
+      "sha256": "17A3FE4837AAE150531FB5EF24287971EDD5886D7C06598FAB4D77B9C2AF842D",
+      "size_bytes": 23589
+    },
+    {
+      "path": "experiments/joint_velocity_composition/scripts/reproduce_joint_composition.py",
+      "sha256": "B69B11F506F3D1D2A20E72FDFD4DE245299CFA23BF54EFA8FEDA0FA36FEC02D6",
+      "size_bytes": 188
+    },
+    {
+      "path": "experiments/joint_velocity_composition/scripts/reproduce_operator_extension.py",
+      "sha256": "D352438137FB4FF20B0E4EAF30D6FCC22A8A77F4875C35135FD6ECF28EE1BC11",
+      "size_bytes": 189
+    },
+    {
+      "path": "experiments/joint_velocity_composition/scripts/reproduce_specificity_calibration.py",
+      "sha256": "DAE7B6F2988AA25900245D966BDF73F795F8D3533D488818D9BD6F9FF6649D7A",
+      "size_bytes": 194
+    },
+    {
+      "path": "experiments/joint_velocity_composition/scripts/reproduce_specificity_layer_localization.py",
+      "sha256": "7C770E65F1893BC586E87D0707109C53136602E0F7DDEBDC19D9A0273C629BCB",
+      "size_bytes": 188
+    },
+    {
+      "path": "experiments/joint_velocity_composition/scripts/summarize_joint_composition_boundary.py",
+      "sha256": "71B8ABC3299664DF2026C51757441C5B18C992881F0FCB5FA51BA70D74C95742",
+      "size_bytes": 188
+    }
+  ],
+  "development_only": true,
+  "files": [
+    {
+      "name": "affine_composition_equivalence.csv",
+      "record_count": 1536,
+      "sha256": "7F9CC899A6937CD0BB3F55D75CBBB459FA60AC98A176B0AB1C7A52355BBF1C32",
+      "size_bytes": 132445
+    },
+    {
+      "name": "joint_composition_results.csv",
+      "record_count": 13824,
+      "sha256": "C46C44EDAC0A7A17FC8649C8ED62CFFE7760DCD10410912FFB5414FD932987CE",
+      "size_bytes": 3297323
+    },
+    {
+      "name": "joint_composition_units.csv",
+      "record_count": 512,
+      "sha256": "0FA454981F9D97751F93C2F636BD5C2E9E5002712E31ED851D2A1CB76303D4FC",
+      "size_bytes": 105401
+    },
+    {
+      "name": "joint_specificity_pairs.csv",
+      "record_count": 48,
+      "sha256": "D763ECF5CD63ABE9637157034EDDBD5619E8A7057EC50FC3BA97DCDF87FBBEF2",
+      "size_bytes": 9449
+    },
+    {
+      "name": "minimal_joint_correction_summary.csv",
+      "record_count": 6,
+      "sha256": "0DBC38ABDD76DCC56D64F5675653542F54B69A00872114D7474F7C2FE1D456AC",
+      "size_bytes": 772
+    },
+    {
+      "name": "operator_extension_cells.csv",
+      "record_count": 42,
+      "sha256": "5EEBAD24E423D0B5F6A55D5F52395104AFD45290B2A2D0E4F120AB4EF820B0C9",
+      "size_bytes": 8201
+    },
+    {
+      "name": "operator_extension_specificity.csv",
+      "record_count": 96,
+      "sha256": "7795B59D5EB7BF58A0CBC5AEE7E5BCF49175E3598F942822AFB7AFAA14A393C1",
+      "size_bytes": 17367
+    },
+    {
+      "name": "operator_fit_diagnostics.csv",
+      "record_count": 18,
+      "sha256": "97C213F27B050819B73CEBCAF61181FDDDED3B9DE68594D51B9EBB6D68009D4A",
+      "size_bytes": 2567
+    },
+    {
+      "name": "operator_weights.json",
+      "record_count": null,
+      "sha256": "4B3B17584B3CEE374DB8AD8F04435F0E2530DD9909099AB4D97F2D8ED7A9BDDA",
+      "size_bytes": 33241
+    },
+    {
+      "name": "single_component_backward_compatibility.csv",
+      "record_count": 18,
+      "sha256": "B4A4A7195B0CBD83C639A1556ED7433A174C4391B46692F376D3606F8E67E526",
+      "size_bytes": 2154
+    },
+    {
+      "name": "single_component_specificity_baseline.csv",
+      "record_count": 36,
+      "sha256": "CD94A9C32182A2B158FBA98F53FC7699C2BBA799C009A9A18499A2B1D3915E6E",
+      "size_bytes": 6730
+    },
+    {
+      "name": "specificity_layer_localization.csv",
+      "record_count": 8,
+      "sha256": "F6519149C526CC16B6E91C8AF49FDEFFFC4C9004EA8930FF6CD9ACE2B265377F",
+      "size_bytes": 983
+    },
+    {
+      "name": "specificity_layer_results.csv",
+      "record_count": 66,
+      "sha256": "33EE5D8EAF4EBAE71545BC2DD6EDC065C287E1B194D63E15889DC3C4A1769604",
+      "size_bytes": 11693
+    }
+  ],
+  "maximum_joint_delta_norm": 0.2640030473470688,
+  "metric_thresholds_by_stratum": {
+    "S1_no_contact": {
+      "m1_x": 0.38875516163789126,
+      "m1_y": 0.38875516163789126,
+      "m2": 0.6530927312234215,
+      "m3": 0.28744727060560543,
+      "m4": 0.3393832556356259,
+      "m5": 20.260185026563704
+    },
+    "S2_interaction_sensitive": {
+      "m1_x": 0.4669759655361256,
+      "m1_y": 0.4669759655361256,
+      "m2": 0.6568131957898696,
+      "m3": 0.5513987778513324,
+      "m4": 0.25616304846974386,
+      "m5": 10.47115975990891
+    }
+  },
+  "paired_dominance_threshold": 0.8,
+  "rank": 4,
+  "required_checkpoint_count": 2,
+  "schema_version": "1.0",
+  "scientific_dataset": "joint_velocity_composition_boundary",
+  "unit_counts": {
+    "S1_no_contact": 256,
+    "S2_interaction_sensitive": 256,
+    "total": 512
+  }
+}

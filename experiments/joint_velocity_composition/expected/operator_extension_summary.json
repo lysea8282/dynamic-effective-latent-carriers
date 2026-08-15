@@ -1,0 +1,548 @@
+{
+  "full_joint_specificity_established": false,
+  "full_specificity": {
+    "joint_aware_affine": {
+      "checkpoint_both_strata_absolute_and_all_controls_pass": {
+        "development_model_1": false,
+        "development_model_2": false,
+        "development_model_3": false
+      },
+      "panel_pass": false,
+      "passing_model_count": 0,
+      "required_model_count": 2
+    },
+    "minimal_joint_correction": {
+      "checkpoint_both_strata_absolute_and_all_controls_pass": {
+        "development_model_1": false,
+        "development_model_2": false,
+        "development_model_3": false
+      },
+      "panel_pass": false,
+      "passing_model_count": 0,
+      "required_model_count": 2
+    },
+    "original_affine": {
+      "checkpoint_both_strata_absolute_and_all_controls_pass": {
+        "development_model_1": false,
+        "development_model_2": false,
+        "development_model_3": false
+      },
+      "panel_pass": false,
+      "passing_model_count": 0,
+      "required_model_count": 2
+    }
+  },
+  "intended_joint_rollout_panels": {
+    "joint_aware_affine": {
+      "checkpoint_both_strata_pass": {
+        "development_model_1": true,
+        "development_model_2": true,
+        "development_model_3": true
+      },
+      "panel_pass": true,
+      "passing_model_count": 3,
+      "required_model_count": 2,
+      "stratum_panels": {
+        "S1_no_contact": {
+          "panel_pass": true,
+          "passing_model_count": 3,
+          "required_model_count": 2
+        },
+        "S2_interaction_sensitive": {
+          "panel_pass": true,
+          "passing_model_count": 3,
+          "required_model_count": 2
+        }
+      }
+    },
+    "minimal_joint_correction": {
+      "checkpoint_both_strata_pass": {
+        "development_model_1": true,
+        "development_model_2": true,
+        "development_model_3": true
+      },
+      "panel_pass": true,
+      "passing_model_count": 3,
+      "required_model_count": 2,
+      "stratum_panels": {
+        "S1_no_contact": {
+          "panel_pass": true,
+          "passing_model_count": 3,
+          "required_model_count": 2
+        },
+        "S2_interaction_sensitive": {
+          "panel_pass": true,
+          "passing_model_count": 3,
+          "required_model_count": 2
+        }
+      }
+    },
+    "original_affine": {
+      "checkpoint_both_strata_pass": {
+        "development_model_1": true,
+        "development_model_2": true,
+        "development_model_3": true
+      },
+      "panel_pass": true,
+      "passing_model_count": 3,
+      "required_model_count": 2,
+      "stratum_panels": {
+        "S1_no_contact": {
+          "panel_pass": true,
+          "passing_model_count": 3,
+          "required_model_count": 2
+        },
+        "S2_interaction_sensitive": {
+          "panel_pass": true,
+          "passing_model_count": 3,
+          "required_model_count": 2
+        }
+      }
+    }
+  },
+  "joint_aware_affine_closes_gap": false,
+  "joint_aware_affine_outcome": "insufficient_specificity",
+  "minimal_joint_correction_by_model_and_stratum": [
+    {
+      "max_feature_contribution_identity_error": "3.219646771412954e-15",
+      "median_correction_norm": "0.2542121569375004",
+      "median_correction_to_total_coefficient_norm": "0.07414888007842385",
+      "model_id": "development_model_1",
+      "stratum": "S1_no_contact",
+      "unit_count": "256"
+    },
+    {
+      "max_feature_contribution_identity_error": "2.1649348980190553e-15",
+      "median_correction_norm": "0.25421215693750043",
+      "median_correction_to_total_coefficient_norm": "0.07066807060571281",
+      "model_id": "development_model_1",
+      "stratum": "S2_interaction_sensitive",
+      "unit_count": "256"
+    },
+    {
+      "max_feature_contribution_identity_error": "1.970645868709653e-15",
+      "median_correction_norm": "0.08427561532003408",
+      "median_correction_to_total_coefficient_norm": "0.038210601037684755",
+      "model_id": "development_model_2",
+      "stratum": "S1_no_contact",
+      "unit_count": "256"
+    },
+    {
+      "max_feature_contribution_identity_error": "1.5265566588595902e-15",
+      "median_correction_norm": "0.08427561532003419",
+      "median_correction_to_total_coefficient_norm": "0.04049023607286946",
+      "model_id": "development_model_2",
+      "stratum": "S2_interaction_sensitive",
+      "unit_count": "256"
+    },
+    {
+      "max_feature_contribution_identity_error": "2.7755575615628914e-15",
+      "median_correction_norm": "0.09187496800789383",
+      "median_correction_to_total_coefficient_norm": "0.03278937500426124",
+      "model_id": "development_model_3",
+      "stratum": "S1_no_contact",
+      "unit_count": "256"
+    },
+    {
+      "max_feature_contribution_identity_error": "2.7755575615628914e-15",
+      "median_correction_norm": "0.09187496800789338",
+      "median_correction_to_total_coefficient_norm": "0.03325566936756379",
+      "model_id": "development_model_3",
+      "stratum": "S2_interaction_sensitive",
+      "unit_count": "256"
+    }
+  ],
+  "minimal_joint_correction_closes_gap": false,
+  "minimal_joint_correction_outcome": "insufficient_specificity",
+  "native_object_specificity_ceiling_observed": true,
+  "operator_weight_shapes": {
+    "joint_aware_affine": {
+      "development_model_1": [
+        13,
+        4
+      ],
+      "development_model_2": [
+        13,
+        4
+      ],
+      "development_model_3": [
+        13,
+        4
+      ]
+    },
+    "minimal_joint_correction": {
+      "development_model_1": [
+        15,
+        4
+      ],
+      "development_model_2": [
+        15,
+        4
+      ],
+      "development_model_3": [
+        15,
+        4
+      ]
+    },
+    "original_affine": {
+      "development_model_1": [
+        13,
+        4
+      ],
+      "development_model_2": [
+        13,
+        4
+      ],
+      "development_model_3": [
+        13,
+        4
+      ]
+    }
+  },
+  "original_affine_outcome": "insufficient_specificity",
+  "schema_version": "1.0",
+  "selected_operator": "none",
+  "single_component_backward_compatibility": {
+    "joint_aware_affine": {
+      "checkpoint_both_strata_pass": {
+        "development_model_1": true,
+        "development_model_2": true,
+        "development_model_3": true
+      },
+      "panel_pass": true,
+      "passing_model_count": 3,
+      "random_negative_control_pass": true,
+      "required_model_count": 2,
+      "stratum_panels": {
+        "S1_no_contact": {
+          "panel_pass": true,
+          "passing_model_count": 3,
+          "required_model_count": 2
+        },
+        "S2_interaction_sensitive": {
+          "panel_pass": true,
+          "passing_model_count": 3,
+          "required_model_count": 2
+        }
+      }
+    },
+    "minimal_joint_correction": {
+      "checkpoint_both_strata_pass": {
+        "development_model_1": true,
+        "development_model_2": true,
+        "development_model_3": true
+      },
+      "panel_pass": true,
+      "passing_model_count": 3,
+      "random_negative_control_pass": true,
+      "required_model_count": 2,
+      "stratum_panels": {
+        "S1_no_contact": {
+          "panel_pass": true,
+          "passing_model_count": 3,
+          "required_model_count": 2
+        },
+        "S2_interaction_sensitive": {
+          "panel_pass": true,
+          "passing_model_count": 3,
+          "required_model_count": 2
+        }
+      }
+    },
+    "original_affine": {
+      "checkpoint_both_strata_pass": {
+        "development_model_1": true,
+        "development_model_2": true,
+        "development_model_3": true
+      },
+      "panel_pass": true,
+      "passing_model_count": 3,
+      "random_negative_control_pass": true,
+      "required_model_count": 2,
+      "stratum_panels": {
+        "S1_no_contact": {
+          "panel_pass": true,
+          "passing_model_count": 3,
+          "required_model_count": 2
+        },
+        "S2_interaction_sensitive": {
+          "panel_pass": true,
+          "passing_model_count": 3,
+          "required_model_count": 2
+        }
+      }
+    }
+  },
+  "specificity_panels": {
+    "joint_aware_affine": {
+      "matched_wrong_vector": {
+        "checkpoint_both_strata_pass": {
+          "development_model_1": false,
+          "development_model_2": false,
+          "development_model_3": false
+        },
+        "panel_pass": false,
+        "passing_model_count": 0,
+        "required_model_count": 2,
+        "stratum_panels": {
+          "S1_no_contact": {
+            "panel_pass": true,
+            "passing_model_count": 3,
+            "required_model_count": 2
+          },
+          "S2_interaction_sensitive": {
+            "panel_pass": false,
+            "passing_model_count": 0,
+            "required_model_count": 2
+          }
+        }
+      },
+      "no_patch": {
+        "checkpoint_both_strata_pass": {
+          "development_model_1": false,
+          "development_model_2": false,
+          "development_model_3": false
+        },
+        "panel_pass": false,
+        "passing_model_count": 0,
+        "required_model_count": 2,
+        "stratum_panels": {
+          "S1_no_contact": {
+            "panel_pass": true,
+            "passing_model_count": 3,
+            "required_model_count": 2
+          },
+          "S2_interaction_sensitive": {
+            "panel_pass": false,
+            "passing_model_count": 0,
+            "required_model_count": 2
+          }
+        }
+      },
+      "random_equal_norm": {
+        "checkpoint_both_strata_pass": {
+          "development_model_1": false,
+          "development_model_2": false,
+          "development_model_3": false
+        },
+        "panel_pass": false,
+        "passing_model_count": 0,
+        "required_model_count": 2,
+        "stratum_panels": {
+          "S1_no_contact": {
+            "panel_pass": true,
+            "passing_model_count": 3,
+            "required_model_count": 2
+          },
+          "S2_interaction_sensitive": {
+            "panel_pass": false,
+            "passing_model_count": 0,
+            "required_model_count": 2
+          }
+        }
+      },
+      "wrong_object": {
+        "checkpoint_both_strata_pass": {
+          "development_model_1": false,
+          "development_model_2": false,
+          "development_model_3": false
+        },
+        "panel_pass": false,
+        "passing_model_count": 0,
+        "required_model_count": 2,
+        "stratum_panels": {
+          "S1_no_contact": {
+            "panel_pass": true,
+            "passing_model_count": 3,
+            "required_model_count": 2
+          },
+          "S2_interaction_sensitive": {
+            "panel_pass": false,
+            "passing_model_count": 0,
+            "required_model_count": 2
+          }
+        }
+      }
+    },
+    "minimal_joint_correction": {
+      "matched_wrong_vector": {
+        "checkpoint_both_strata_pass": {
+          "development_model_1": false,
+          "development_model_2": false,
+          "development_model_3": false
+        },
+        "panel_pass": false,
+        "passing_model_count": 0,
+        "required_model_count": 2,
+        "stratum_panels": {
+          "S1_no_contact": {
+            "panel_pass": true,
+            "passing_model_count": 3,
+            "required_model_count": 2
+          },
+          "S2_interaction_sensitive": {
+            "panel_pass": false,
+            "passing_model_count": 0,
+            "required_model_count": 2
+          }
+        }
+      },
+      "no_patch": {
+        "checkpoint_both_strata_pass": {
+          "development_model_1": false,
+          "development_model_2": false,
+          "development_model_3": false
+        },
+        "panel_pass": false,
+        "passing_model_count": 0,
+        "required_model_count": 2,
+        "stratum_panels": {
+          "S1_no_contact": {
+            "panel_pass": true,
+            "passing_model_count": 3,
+            "required_model_count": 2
+          },
+          "S2_interaction_sensitive": {
+            "panel_pass": false,
+            "passing_model_count": 0,
+            "required_model_count": 2
+          }
+        }
+      },
+      "random_equal_norm": {
+        "checkpoint_both_strata_pass": {
+          "development_model_1": false,
+          "development_model_2": false,
+          "development_model_3": false
+        },
+        "panel_pass": false,
+        "passing_model_count": 0,
+        "required_model_count": 2,
+        "stratum_panels": {
+          "S1_no_contact": {
+            "panel_pass": true,
+            "passing_model_count": 3,
+            "required_model_count": 2
+          },
+          "S2_interaction_sensitive": {
+            "panel_pass": false,
+            "passing_model_count": 0,
+            "required_model_count": 2
+          }
+        }
+      },
+      "wrong_object": {
+        "checkpoint_both_strata_pass": {
+          "development_model_1": false,
+          "development_model_2": false,
+          "development_model_3": false
+        },
+        "panel_pass": false,
+        "passing_model_count": 0,
+        "required_model_count": 2,
+        "stratum_panels": {
+          "S1_no_contact": {
+            "panel_pass": true,
+            "passing_model_count": 3,
+            "required_model_count": 2
+          },
+          "S2_interaction_sensitive": {
+            "panel_pass": false,
+            "passing_model_count": 0,
+            "required_model_count": 2
+          }
+        }
+      }
+    },
+    "original_affine": {
+      "matched_wrong_vector": {
+        "checkpoint_both_strata_pass": {
+          "development_model_1": false,
+          "development_model_2": false,
+          "development_model_3": false
+        },
+        "panel_pass": false,
+        "passing_model_count": 0,
+        "required_model_count": 2,
+        "stratum_panels": {
+          "S1_no_contact": {
+            "panel_pass": true,
+            "passing_model_count": 2,
+            "required_model_count": 2
+          },
+          "S2_interaction_sensitive": {
+            "panel_pass": false,
+            "passing_model_count": 0,
+            "required_model_count": 2
+          }
+        }
+      },
+      "no_patch": {
+        "checkpoint_both_strata_pass": {
+          "development_model_1": false,
+          "development_model_2": false,
+          "development_model_3": false
+        },
+        "panel_pass": false,
+        "passing_model_count": 0,
+        "required_model_count": 2,
+        "stratum_panels": {
+          "S1_no_contact": {
+            "panel_pass": true,
+            "passing_model_count": 3,
+            "required_model_count": 2
+          },
+          "S2_interaction_sensitive": {
+            "panel_pass": false,
+            "passing_model_count": 0,
+            "required_model_count": 2
+          }
+        }
+      },
+      "random_equal_norm": {
+        "checkpoint_both_strata_pass": {
+          "development_model_1": false,
+          "development_model_2": false,
+          "development_model_3": false
+        },
+        "panel_pass": false,
+        "passing_model_count": 0,
+        "required_model_count": 2,
+        "stratum_panels": {
+          "S1_no_contact": {
+            "panel_pass": true,
+            "passing_model_count": 3,
+            "required_model_count": 2
+          },
+          "S2_interaction_sensitive": {
+            "panel_pass": false,
+            "passing_model_count": 0,
+            "required_model_count": 2
+          }
+        }
+      },
+      "wrong_object": {
+        "checkpoint_both_strata_pass": {
+          "development_model_1": false,
+          "development_model_2": false,
+          "development_model_3": false
+        },
+        "panel_pass": false,
+        "passing_model_count": 0,
+        "required_model_count": 2,
+        "stratum_panels": {
+          "S1_no_contact": {
+            "panel_pass": true,
+            "passing_model_count": 3,
+            "required_model_count": 2
+          },
+          "S2_interaction_sensitive": {
+            "panel_pass": false,
+            "passing_model_count": 0,
+            "required_model_count": 2
+          }
+        }
+      }
+    }
+  }
+}

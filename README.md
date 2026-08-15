@@ -2,7 +2,7 @@
 
 This repository is the reproducibility package for the paper **“Low-Rank Dynamics-Effective Latent Carriers for Counterfactual Rollout in Learned World Models.”** It contains the frozen datasets, six trained model checkpoints, fitted carrier artifacts, result records, and code needed to inspect or reproduce the reported workflow without another source tree.
 
-The scientific scope is deliberately narrow: native counterfactual adequacy; a tested low-rank velocity carrier; oracle and addressable edits; autonomous-rollout controls; independent fresh-checkpoint replication; temporal per-anchor existence and frozen-anchor transport; a bounded event-phase result; and a velocity-versus-position specificity diagnostic.
+The scientific scope is deliberately narrow: native counterfactual adequacy; a tested low-rank velocity carrier; oracle and addressable edits; autonomous-rollout controls; independent fresh-checkpoint replication; temporal per-anchor existence and frozen-anchor transport; a bounded event-phase result; a velocity-versus-position specificity diagnostic; and a development-only joint-velocity composition boundary test.
 
 ## Installation
 
@@ -54,6 +54,7 @@ python experiments/native_counterfactual_adequacy/run.py
 python experiments/low_rank_velocity_carrier/run.py
 python experiments/temporal_stability/run.py
 python experiments/intervention_specificity/run.py
+python experiments/joint_velocity_composition/scripts/summarize_joint_composition_boundary.py
 ```
 
 These commands read the frozen public result records. They are intended for transparent inspection and release testing, not as new scientific runs.
@@ -96,6 +97,7 @@ Each script reads only the CSV file or files in its own directory and writes a P
 - The tested carrier succeeds at all five per-anchor existence panels and all four frozen-`t=7` transport targets under the registered model-level requirement.
 - The bounded event-phase development assay provides no positive signal.
 - Position editing is a **negative specificity contrast**, not a second positive carrier: raw success is also achieved by negative-control routes, while the registered specificity conditions fail.
+- The primary confirmed intervention family is bounded single-component velocity editing. The separate development-only joint-velocity analysis retains rank-4 capacity and exact affine coefficient composition, but simple addressable maps do not recover the same target specificity in interaction-sensitive rollouts; it is a boundary test, not a fresh-checkpoint-confirmed second intervention family.
 
 The exact claim-to-file mapping is in [docs/RESULT_MAPPING.md](docs/RESULT_MAPPING.md). These findings are bounded to the packaged simulator, model family, edit families, seeds, horizons, and thresholds; see [docs/LIMITATIONS.md](docs/LIMITATIONS.md).
 
@@ -121,4 +123,3 @@ Citation metadata is in `CITATION.cff`. Code and packaged research artifacts are
 ## AI Assistance Disclosure
 
 ChatGPT and OpenAI Codex were used to assist with literature organization, experimental and code development, analysis organization, and manuscript editing. All scientific decisions, experimental results, interpretations, and final claims were independently reviewed and determined by the authors, who take full responsibility for the content of this work.
-
