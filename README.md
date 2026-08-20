@@ -2,7 +2,7 @@
 
 This repository is the reproducibility package for the paper **“Low-Rank Dynamics-Effective Latent Carriers for Counterfactual Rollout in Learned World Models.”** It contains the frozen datasets, six trained model checkpoints, fitted carrier artifacts, result records, and code needed to inspect or reproduce the reported workflow without another source tree.
 
-The scientific scope is deliberately narrow: native counterfactual adequacy; a tested low-rank velocity carrier; oracle and addressable edits; autonomous-rollout controls; independent fresh-checkpoint replication; temporal per-anchor existence and frozen-anchor transport; a bounded event-phase result; a velocity-versus-position specificity diagnostic; and a development-only joint-velocity composition boundary test.
+The scientific scope is deliberately narrow: native counterfactual adequacy; a tested low-rank velocity carrier; oracle and addressable edits; autonomous-rollout controls; independent fresh-checkpoint replication; temporal per-anchor existence and frozen-anchor transport; a velocity-versus-position specificity diagnostic; and a development-only joint-velocity composition boundary test.
 
 ## Installation
 
@@ -63,9 +63,9 @@ These commands read the frozen public result records. They are intended for tran
 
 All scientific inputs use repository-relative paths. Hashes, sizes, purposes, and consumers are recorded in `ARTIFACT_MANIFEST.json`, `data/DATASET_MANIFEST.json`, and `checkpoints/CHECKPOINT_MANIFEST.json`.
 
-- `data/` contains the packaged training, carrier-fit, development, replication, temporal, and event-phase records.
+- `data/` contains the packaged training, carrier-fit, development, replication, and temporal records.
 - `checkpoints/models/` contains three development and three independent fresh-replication models.
-- `checkpoints/carriers/` contains the fitted velocity, temporal, position, and event-phase carrier bundles used by the public validation path.
+- `checkpoints/carriers/` contains the fitted velocity, temporal, and position carrier bundles used by the public validation path.
 - `results/expected/` contains the frozen paper summaries and detailed result structures.
 
 See [docs/DATASETS.md](docs/DATASETS.md) and [docs/CHECKPOINTS.md](docs/CHECKPOINTS.md).
@@ -95,7 +95,7 @@ Each script reads only the CSV file or files in its own directory and writes a P
 - Rank 4 is the **smallest passing tested intervention rank** for both oracle and addressable velocity edits on the registered grid. It is not a claim that the environment has a complete four-dimensional state or that four dimensions are universally sufficient.
 - Two of three fresh replication checkpoints satisfy both registered strata.
 - The tested carrier succeeds at all five per-anchor existence panels and all four frozen-`t=7` transport targets under the registered model-level requirement.
-- The bounded event-phase development assay provides no positive signal.
+- Temporal reuse was evaluated within the tested intervention window. The event-relative phase analysis is not part of the current manuscript claim set.
 - Position editing is a **negative specificity contrast**, not a second positive carrier: raw success is also achieved by negative-control routes, while the registered specificity conditions fail.
 - The primary confirmed intervention family is bounded single-component velocity editing. The separate development-only joint-velocity analysis retains rank-4 capacity and exact affine coefficient composition, but simple addressable maps do not recover the same target specificity in interaction-sensitive rollouts; it is a boundary test, not a fresh-checkpoint-confirmed second intervention family.
 

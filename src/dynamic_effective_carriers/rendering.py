@@ -67,7 +67,6 @@ def generate_tables(root: Path) -> list[Path]:
         ("Addressable replication", f"{summary['low_rank_velocity_carrier']['replication_passing_checkpoint_count']}/3 checkpoints", "pass"),
         ("Temporal anchors", f"{len(summary['temporal_stability']['anchors'])}/5", "pass"),
         ("Temporal transport targets", f"{len(summary['temporal_stability']['transport_targets'])}/4", "pass"),
-        ("Event-phase positive signal", "not observed", "bounded negative"),
         ("Position specificity", "0/3 checkpoints at each amplitude", "not supported"),
     ]
     csv_path = output / "main_results.csv"

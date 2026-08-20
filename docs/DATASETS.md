@@ -6,6 +6,5 @@
 - `data/training/velocity_carrier_fit.jsonl` supplies the velocity carrier fit set.
 - `data/evaluation/velocity_*.jsonl` supplies development and replication evaluations.
 - `data/counterfactual/temporal_*.jsonl` supplies temporal carrier fitting, development, and replication panels.
-- `data/counterfactual/event_phase_*.jsonl` supplies event-phase carrier fitting, development, and held-out records.
 
 All numerical arrays and JSON numeric values are preserved from the frozen scientific artifacts. Text identifiers were replaced with neutral public identifiers; the manifest records numerical-content hashes to verify this transformation.

@@ -1,5 +1,5 @@
 {
-  "dataset_count": 10,
+  "dataset_count": 7,
   "datasets": [
     {
       "consumers": [
@@ -91,42 +91,6 @@
       "record_count": 1280,
       "sha256": "79E22F10E8ED10A11AFECEECDB6FFA7FA032AC9DDF488A98C1BAD0293DADC4B8",
       "size_bytes": 18940066,
-      "type": "dataset"
-    },
-    {
-      "consumers": [
-        "event-phase analysis"
-      ],
-      "description": "event-phase carrier fitting",
-      "numeric_record_stream_sha256": "3CBE11807ABA3191B8CEC20014CF565ECEA8E4D8D1354C8613E483458758960F",
-      "path": "data/counterfactual/event_phase_carrier_fit.jsonl",
-      "record_count": 576,
-      "sha256": "6D811E8BD8D044DB3E2D1B814495D76BE272568FA147EA66939BBC800DBEEE44",
-      "size_bytes": 4285963,
-      "type": "dataset"
-    },
-    {
-      "consumers": [
-        "event-phase analysis"
-      ],
-      "description": "event-phase development evaluation",
-      "numeric_record_stream_sha256": "ED00E015E35E38539C4799850D808F627B46C36620FB7F31582EC2B998C8F16A",
-      "path": "data/counterfactual/event_phase_development.jsonl",
-      "record_count": 576,
-      "sha256": "7EE57302E1BC749B48875CDECADC3A7E50BA814317CB8E2C73BF1C48CB32CCE2",
-      "size_bytes": 4290127,
-      "type": "dataset"
-    },
-    {
-      "consumers": [
-        "future held-out event-phase analysis"
-      ],
-      "description": "held-out event-phase records",
-      "numeric_record_stream_sha256": "DA129046880FC36D97BD5055FBAF900FC780F639E75E6791CAEF52E0BAF375C9",
-      "path": "data/counterfactual/event_phase_replication.jsonl",
-      "record_count": 576,
-      "sha256": "0F1CFA7F40D024C23FC44A68E48D2EB07B0508BF2020189C1B283C64189CC9F0",
-      "size_bytes": 4301727,
       "type": "dataset"
     }
   ],

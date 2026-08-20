@@ -127,7 +127,6 @@ def checklist(result: dict[str, Any]) -> str:
         "[x] velocity rank profile and addressable result",
         "[x] autonomous-rollout controls",
         "[x] temporal stability",
-        "[x] event-phase bounded negative result",
         "[x] position intervention specificity diagnostic",
         "[x] paper figures and tables",
     ]

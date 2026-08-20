@@ -91,8 +91,6 @@
       }
     }
   },
-  "B3_event_phase_status": "NOT_EXECUTED",
-  "B3_outcome_executed": false,
   "Route_D_executed": false,
   "actual_B1_record_count": 3840,
   "actual_B2_record_count": 3072,

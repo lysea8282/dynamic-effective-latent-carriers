@@ -1,11 +1,4 @@
 {
-  "event_phase": {
-    "clock_transport_pass": false,
-    "interpretation": "no positive phase signal in the bounded development protocol",
-    "phase_local_pass": false,
-    "phase_transport_pass": false,
-    "rank": 4
-  },
   "frozen_artifact_reproduction": true,
   "intervention_specificity": {
     "all_three_tested_explanations_supported": false,
