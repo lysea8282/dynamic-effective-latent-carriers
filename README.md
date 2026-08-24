@@ -1,8 +1,22 @@
 # Dynamic Effective Latent Carriers
 
-This repository is the reproducibility package for the paper **“Low-Rank Dynamics-Effective Latent Carriers for Counterfactual Rollout in Learned World Models.”** It contains the frozen datasets, six trained model checkpoints, fitted carrier artifacts, result records, and code needed to inspect or reproduce the reported workflow without another source tree.
+This repository is the reproducibility package for **“Low-Rank Dynamics-Effective Latent Carriers for Counterfactual Rollout in Learned World Models.”** It contains the frozen datasets, six trained checkpoints, fitted carrier artifacts, result records, and code needed to inspect or reproduce the reported workflow without another source tree.
 
-The scientific scope is deliberately narrow: native counterfactual adequacy; a tested low-rank velocity carrier; oracle and addressable edits; autonomous-rollout controls; independent fresh-checkpoint replication; temporal per-anchor existence and frozen-anchor transport; a velocity-versus-position specificity diagnostic; and a development-only joint-velocity composition boundary test.
+## Core result
+
+For the original confirmatory single-component velocity intervention family, rank 4 is the **smallest passing tested rank** on the registered grid. A checkpoint-specific rank-4 dynamics-effective carrier forms a compact, addressable counterfactual intervention interface for the tested velocity-edit regime. This is a one-shot intervention followed by a 12-step autonomous rollout, not a claim that the environment has an intrinsic four-dimensional state.
+
+The confirmatory core also includes fresh-checkpoint replication, temporal reuse, random/wrong-object/wrong-time controls, and a position-edit negative specificity contrast.
+
+## Corrected Joint extension
+
+The post-submission replicated extension evaluates simultaneous two-component velocity requests on the same object. After correcting a source-identity alignment error, the same Single-derived, Single-only-addressed construction—fitted separately for each checkpoint—shows bounded Joint addressability. M1 already shows strong unseen-Joint competence; M2 mainly improves rollout fidelity and descriptive target specificity. Corrected native Joint responses become more compositional from M0 to M1 to M2 at the family-median level, with overlap among checkpoint results.
+
+The corrected checkpoint-level and unit-level exports, identity-keyed semantic test, and summary reproduction live in [`experiments/joint_velocity_composition/`](experiments/joint_velocity_composition/). See [`REVISION_NOTE.md`](REVISION_NOTE.md) for the correction scope.
+
+## Mechanistic boundary
+
+The post-submission mechanistic analyses show that composition-relevant error is distributed across the rank-4 carrier and its complement. The carrier is a compact intervention-entry interface; it is **not** established as a closed four-dimensional recurrent state. Geometric closeness to the tested projected native-Joint oracle is not, by itself, a sufficient proxy for dynamics-effective addressability.
 
 ## Installation
 
@@ -16,7 +30,7 @@ python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 ```
 
-If the repository was obtained through Git with LFS pointer files, materialize the packaged scientific data first:
+If the repository was obtained through Git with LFS pointer files, materialize the scientific data first:
 
 ```bash
 git lfs pull
@@ -29,7 +43,16 @@ python scripts/verify_artifacts.py
 python scripts/reproduce_main_results.py
 ```
 
-This verifies every manifest-bound artifact, loads a checkpoint, exercises the simulator and rank-4 carrier, writes the frozen paper summary under `results/reproduced/`, regenerates publication Figures 1–4, and regenerates the paper-facing summary tables. On a typical CPU it takes about one minute, dominated by hashing.
+This verifies every manifest-bound artifact, loads a checkpoint, exercises the simulator and rank-4 carrier, writes the frozen paper summary under `results/reproduced/`, regenerates the original publication figures, and regenerates the paper-facing summary tables.
+
+For the corrected Joint extension alone:
+
+```bash
+python experiments/joint_velocity_composition/scripts/verify_joint_alignment.py
+python experiments/joint_velocity_composition/scripts/reproduce_corrected_joint_results.py --figure
+```
+
+The first command validates 512 explicit unit identities, edited objects, velocity deltas, and exact Single-x + Single-y = Joint numerical composition. The second independently recomputes the public checkpoint/family summaries from the released tables.
 
 ## Full frozen-artifact validation
 
@@ -37,84 +60,49 @@ This verifies every manifest-bound artifact, loads a checkpoint, exercises the s
 python scripts/reproduce_all_results.py
 ```
 
-The full path validates every packaged dataset, checkpoint, fitted carrier, and detailed result record. It does not repeat expensive scientific model selection. To run a from-scratch model-training replication as a separate numerical check:
+The full path validates every packaged dataset, checkpoint, fitted carrier, detailed result record, and corrected Joint export. It does not repeat expensive scientific model selection. To run a from-scratch training replication as a separate numerical check:
 
 ```bash
 python scripts/reproduce_all_results.py --retrain --seeds 291101
 ```
 
-Retraining is substantially slower and may not reproduce byte-identical files across hardware or library builds. The frozen path is the exact paper-artifact reproduction; retraining is a numerical replication of the documented objective. See [docs/REPRODUCIBILITY.md](docs/REPRODUCIBILITY.md).
+Retraining is substantially slower and may not reproduce byte-identical files across hardware or library builds. See [`docs/REPRODUCIBILITY.md`](docs/REPRODUCIBILITY.md).
 
 ## Public experiment readbacks
-
-The following repository-relative commands expose the packaged result structures for the principal experiment families:
 
 ```bash
 python experiments/native_counterfactual_adequacy/run.py
 python experiments/low_rank_velocity_carrier/run.py
 python experiments/temporal_stability/run.py
 python experiments/intervention_specificity/run.py
-python experiments/joint_velocity_composition/scripts/summarize_joint_composition_boundary.py
+python experiments/joint_velocity_composition/scripts/reproduce_corrected_joint_results.py
 ```
 
-These commands read the frozen public result records. They are intended for transparent inspection and release testing, not as new scientific runs.
+These commands read frozen public result records. They are transparent inspection and release tests, not new scientific runs.
 
 ## Data and checkpoints
 
 All scientific inputs use repository-relative paths. Hashes, sizes, purposes, and consumers are recorded in `ARTIFACT_MANIFEST.json`, `data/DATASET_MANIFEST.json`, and `checkpoints/CHECKPOINT_MANIFEST.json`.
 
-- `data/` contains the packaged training, carrier-fit, development, replication, and temporal records.
+- `data/` contains packaged training, carrier-fit, development, replication, and temporal records.
 - `checkpoints/models/` contains three development and three independent fresh-replication models.
 - `checkpoints/carriers/` contains the fitted velocity, temporal, and position carrier bundles used by the public validation path.
-- `results/expected/` contains the frozen paper summaries and detailed result structures.
+- `results/expected/` contains the frozen original-paper summaries.
+- `experiments/joint_velocity_composition/` contains the corrected post-submission Joint extension.
 
-See [docs/DATASETS.md](docs/DATASETS.md) and [docs/CHECKPOINTS.md](docs/CHECKPOINTS.md).
+See [`docs/DATASETS.md`](docs/DATASETS.md), [`docs/CHECKPOINTS.md`](docs/CHECKPOINTS.md), and [`docs/RESULT_MAPPING.md`](docs/RESULT_MAPPING.md).
 
-## Reproduce paper Figures 1–4
-
-Run all four publication-layout figure scripts with:
+## Figures
 
 ```bash
 python scripts/generate_figures.py
 ```
 
-Or run each figure directly from the repository root:
+This regenerates the four original publication figures plus a public draft of the corrected Joint-extension figure. Each plotting directory contains its source CSV data and script; generated PNG/PDF files are ignored by Git. See [`figures/README.md`](figures/README.md).
 
-```bash
-python figures/rank_transition/plot_rank_transition_and_spectrum.py
-python figures/fresh_replication/plot_fresh_replication_and_controls.py
-python figures/temporal_robustness/plot_figure_temporal_robustness.py
-python figures/position_stress_test/plot_position_stress_test.py
-```
+## Scope
 
-Each script reads only the CSV file or files in its own directory and writes a PNG and PDF beside the script. Generated images are intentionally ignored by Git; the plotting scripts and source CSV files are tracked. Exact inputs and outputs are listed in [figures/README.md](figures/README.md).
-
-## Expected paper-scope results
-
-- All six native-model seeds satisfy the packaged adequacy panels.
-- Rank 4 is the **smallest passing tested intervention rank** for both oracle and addressable velocity edits on the registered grid. It is not a claim that the environment has a complete four-dimensional state or that four dimensions are universally sufficient.
-- Two of three fresh replication checkpoints satisfy both registered strata.
-- The tested carrier succeeds at all five per-anchor existence panels and all four frozen-`t=7` transport targets under the registered model-level requirement.
-- Temporal reuse was evaluated within the tested intervention window. The event-relative phase analysis is not part of the current manuscript claim set.
-- Position editing is a **negative specificity contrast**, not a second positive carrier: raw success is also achieved by negative-control routes, while the registered specificity conditions fail.
-- The primary confirmed intervention family is bounded single-component velocity editing. The separate development-only joint-velocity analysis retains rank-4 capacity and exact affine coefficient composition, but simple addressable maps do not recover the same target specificity in interaction-sensitive rollouts; it is a boundary test, not a fresh-checkpoint-confirmed second intervention family.
-
-The exact claim-to-file mapping is in [docs/RESULT_MAPPING.md](docs/RESULT_MAPPING.md). These findings are bounded to the packaged simulator, model family, edit families, seeds, horizons, and thresholds; see [docs/LIMITATIONS.md](docs/LIMITATIONS.md).
-
-## Outputs
-
-- Frozen reproduction records: `results/reproduced/`
-- Publication Figures 1–4: the corresponding `figures/<figure-name>/` directories
-- Summary tables: `tables/`
-
-Generated outputs can be deleted and regenerated; packaged data, checkpoints, source CSV files, and expected result records are the stable inputs.
-
-## Hardware and runtime
-
-- Frozen quick path: CPU, about one minute, less than 4 GB RAM.
-- Frozen full validation: CPU, about 2–5 minutes, less than 8 GB RAM.
-- One training seed: CPU hours or a modern GPU; six seeds require proportionally more time.
-- Reference package versions: Python 3.12.10, PyTorch 2.11.0, NumPy 2.4.4.
+All findings are bounded to the packaged deterministic simulator, model family, edit families, checkpoints, horizons, and thresholds. Same procedure across checkpoints does not mean the checkpoints share one raw hidden basis. The Joint extension is limited to same-object two-component velocity requests and does not establish a universal intervention algebra or causal law of training. Position editing remains a negative contrast. See [`docs/LIMITATIONS.md`](docs/LIMITATIONS.md).
 
 ## Citation and license
 

@@ -1,0 +1,93 @@
+{
+  "evidence_status": "post-submission replicated extension and mechanistic analysis",
+  "files": [
+    {
+      "path": "data/joint_request_units.csv",
+      "role": "Public identity and numerical-semantic regression fixture.",
+      "rows": 512,
+      "sha256": "7E5DFCAF0E39D2889256C70C4141EE531DE7B3A768C09A0B374959AFD5D3F1AC"
+    },
+    {
+      "path": "data/joint_behavior_summary.csv",
+      "role": "Corrected Joint coverage and anchor/k1/t19 fidelity at checkpoint and family levels.",
+      "rows": 12,
+      "sha256": "53E90FA86548E73FEAACE5E7E6ABE338777A2C16B92F18B6A5FDE6680FF9A9E7"
+    },
+    {
+      "path": "data/joint_composition_units.csv",
+      "role": "Unit-level source for independent recomputation of static composition summaries.",
+      "rows": 909,
+      "sha256": "37146381BB27CCA0F369F8B44D4585D278A7C99F700C41F35248D704596B57B1"
+    },
+    {
+      "path": "data/joint_composition_summary.csv",
+      "role": "Corrected static same-object two-component composition descriptors.",
+      "rows": 12,
+      "sha256": "BBFE0A466213881686F0D64E5826A3DED3711BC89C1DBAB23295E6935F206078"
+    },
+    {
+      "path": "data/joint_dynamic_composition.csv",
+      "role": "Corrected autonomous additive-vs-native-Joint dynamic composition error.",
+      "rows": 45,
+      "sha256": "8908D6CD3EF960515469553341D854D4264C893A52E09C594F9EF836F77ACDB8"
+    },
+    {
+      "path": "data/joint_addressability_units.csv",
+      "role": "Unit-level same-101 Single-only-addressable Joint results.",
+      "rows": 606,
+      "sha256": "9FA004032D3B5357451E654A51619E6C2C4AC77E85BDA4E9BCFA8CA4EEB957B0"
+    },
+    {
+      "path": "data/joint_addressability_summary.csv",
+      "role": "Checkpoint-level comparison of Native, U4-oracle, and Single-only-addressable Joint behavior.",
+      "rows": 6,
+      "sha256": "03026DC78252C4062FB527242D4B19F6259565E8993C4FB91F5A1A7D6BDD6D99"
+    },
+    {
+      "path": "data/joint_specificity_controls.csv",
+      "role": "Unit-level wrong-object, wrong-vector, random, and sham specificity controls.",
+      "rows": 2424,
+      "sha256": "2166BE7BDD1B05A9F70BF273DDA2793ABC182AF662206452DCD92DD09FFC4323"
+    },
+    {
+      "path": "data/joint_specificity_summary.csv",
+      "role": "Checkpoint-level specificity-control separation with replication points visible.",
+      "rows": 24,
+      "sha256": "730ADFD69ED86E91F3AEC16013525A9DBB25AF55167BA9CC47BEAA28C2A3153A"
+    },
+    {
+      "path": "data/joint_subspace_composition.csv",
+      "role": "U4/complement decomposition showing that composition improvement is not U4-only.",
+      "rows": 8,
+      "sha256": "E9ED36596892FC0E8FDBD18A9187A4964EA575276B4F1175AFD509A961083FCE"
+    },
+    {
+      "path": "data/joint_subspace_dynamics.csv",
+      "role": "Mechanistic evidence that full recurrent propagation is not closed in four dimensions.",
+      "rows": 30,
+      "sha256": "A658602B99FBBA58A641CCFF0B44312D94CA6391B2DEA113B07F653221A15F21"
+    },
+    {
+      "path": "data/joint_patch_geometry_units.csv",
+      "role": "Unit-level full-patch geometry for independent checkpoint-median recomputation.",
+      "rows": 606,
+      "sha256": "54F8CF7829FFF71E0C35C877DF5B685A02FE5C0B1185463214AD372C9EBAF23E"
+    },
+    {
+      "path": "data/joint_patch_geometry.csv",
+      "role": "Bounded evidence that geometric oracle closeness is not sufficient for dynamics-effective addressability.",
+      "rows": 6,
+      "sha256": "CCF4750111C719F28F52FBAC161242F6D5730E4B857AB12D52B2A72DCD65A320"
+    },
+    {
+      "path": "expected/corrected_joint_summary.json",
+      "role": "Frozen expected output for corrected public summary reproduction.",
+      "rows": 1,
+      "sha256": "FAD74EB6A08157E6577E285415B936825E408FB3C73C7588CC53B9F792077D51"
+    }
+  ],
+  "identity_rule": "All unit-level joins are keyed by explicit identity; public unit labels are deterministic hashes of canonical source identities.",
+  "schema_version": "corrected-joint-public-source-manifest-v1",
+  "source_basis": "independently verified corrected aligned results accepted in August 2026",
+  "supersession_lineage": "These active files replace a prior misaligned Joint package; prior versions remain available only through Git history."
+}

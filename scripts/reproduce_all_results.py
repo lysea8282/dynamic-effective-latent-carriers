@@ -19,7 +19,7 @@ def main() -> None:
     parser.add_argument("--device")
     args = parser.parse_args()
     result = run_full(ROOT, retrain=args.retrain, seeds=args.seeds, device=args.device)
-    joint_boundary = subprocess.run(
+    joint_results = subprocess.run(
         [
             sys.executable,
             str(
@@ -27,7 +27,7 @@ def main() -> None:
                 / "experiments"
                 / "joint_velocity_composition"
                 / "scripts"
-                / "summarize_joint_composition_boundary.py"
+                / "reproduce_corrected_joint_results.py"
             ),
         ],
         cwd=ROOT,
@@ -40,7 +40,7 @@ def main() -> None:
         json.dumps(
             {
                 "validated_carrier_artifact_count": result["validated_carrier_artifact_count"],
-                "joint_velocity_composition": json.loads(joint_boundary.stdout),
+                "joint_velocity_composition": json.loads(joint_results.stdout),
                 "retrained": len(result["retraining"]),
             },
             indent=2,

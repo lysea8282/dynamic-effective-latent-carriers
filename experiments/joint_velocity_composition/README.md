@@ -1,47 +1,50 @@
-# Joint-velocity composition boundary
+# Corrected Joint velocity extension
 
-## Scientific question
+This package releases the corrected post-submission analysis of same-object, simultaneous two-component velocity requests. It is a bounded extension of the original single-component result, using the same Single-derived, Single-only-addressed construction fitted separately for each checkpoint. No Joint-specific addressability mapper is fitted.
 
-This development-only analysis asks whether the rank-4 carrier established for bounded single-component velocity edits also supports simultaneous two-component velocity changes applied to the same object.
-
-## Primary observation
-
-Native joint edits and their rank-4 oracle projections retain the tested joint-rollout capacity. For the original affine interface, direct joint coefficients and component-wise affine composition agree to numerical precision, and absolute addressable joint rollouts can pass.
-
-## Boundary
-
-Target specificity is weaker than in the established single-component result, especially in interaction-sensitive `S2` rollouts. Retrospective calibration shows that the same 0.80 paired-dominance comparator is compatible with the known-positive single-component baseline. Layer localization retains several distinctions at the native and rank-4 oracle layers but loses them at the addressable layer; wrong-object specificity also has a native ceiling in part of `S2`. Neither a joint-aware affine refit nor a minimal same-object interaction correction closes the full specificity gap.
-
-The interpretation is:
-
-```text
-carrier capacity != compositional addressability
-```
-
-This is a boundary result, not a second positive intervention family. It does not change the primary single-component confirmatory claim, establish a universal velocity coordinate system, show that rank 4 lacks joint information, or establish full joint compositional control. The analysis uses development models only and is not a fresh-checkpoint confirmation.
-
-## Reproduction
+## Reproduce and verify
 
 Run from the repository root:
 
 ```bash
-python experiments/joint_velocity_composition/scripts/reproduce_joint_composition.py
-python experiments/joint_velocity_composition/scripts/reproduce_specificity_calibration.py
-python experiments/joint_velocity_composition/scripts/reproduce_specificity_layer_localization.py
-python experiments/joint_velocity_composition/scripts/reproduce_operator_extension.py
-python experiments/joint_velocity_composition/scripts/summarize_joint_composition_boundary.py
+python experiments/joint_velocity_composition/scripts/verify_joint_alignment.py
+python experiments/joint_velocity_composition/scripts/reproduce_corrected_joint_results.py --figure
+python -m pytest experiments/joint_velocity_composition/tests -q
 ```
 
-Each command verifies the compact public source manifest, recomputes the corresponding summary, checks it against `expected/`, and writes a copy under `results/reproduced/joint_velocity_composition/`. The final command reproduces all five summaries.
+The alignment command performs a scientific semantic test over 512 canonical units. It joins by explicit public unit identity and verifies membership, edited object, velocity deltas, source-noise identity, no duplicates/missing units, and exact Single-x + Single-y = Joint composition. It intentionally reconstructs records in a different row order to rule out positional binding.
 
-## Public evidence
+The reproduction command recomputes checkpoint and family values from the public CSVs, including 909 static-composition unit rows, 606 addressability rows, 2424 specificity controls, and 606 full-patch geometry rows, then renders the selected three-panel public figure.
 
-- `data/joint_composition_units.csv` contains the 512 bounded joint-edit units with public identifiers.
-- `data/joint_composition_results.csv` contains per-model, per-unit native, oracle, affine, and control metrics.
-- `data/joint_specificity_pairs.csv` and `data/affine_composition_equivalence.csv` support the paired-specificity and algebraic-equivalence checks.
-- `data/single_component_specificity_baseline.csv` supports the retrospective comparator calibration.
-- `data/specificity_layer_results.csv` and `data/specificity_layer_localization.csv` support native-to-oracle-to-addressable localization.
-- The operator-extension tables and `data/operator_weights.json` support the refit, interaction-correction, and backward-compatibility checks.
-- `data/public_source_manifest.json` records public labels, counts, frozen settings, thresholds, hashes, and code identities.
+## Public data
 
-Large observation trajectories, hidden-state payloads, private review archives, and exploratory predecessor records are intentionally omitted because the compact records contain every value consumed by the public summaries and tests.
+| File | Role |
+|---|---|
+| `data/joint_request_units.csv` | 512-unit identity and numerical-semantic fixture |
+| `data/joint_behavior_summary.csv` | corrected M0/M1/M2 coverage and anchor/k1/t19 fidelity |
+| `data/joint_composition_units.csv` | unit-level static composition descriptors |
+| `data/joint_composition_summary.csv` | checkpoint and family static composition |
+| `data/joint_dynamic_composition.csv` | checkpoint-level dynamic composition at registered horizons |
+| `data/joint_addressability_units.csv` | same-101 Single-only-addressable results |
+| `data/joint_addressability_summary.csv` | Native vs U4-oracle vs Single-only-addressable comparison |
+| `data/joint_specificity_controls.csv` | 2424 wrong-object, wrong-vector, random, and sham unit controls |
+| `data/joint_specificity_summary.csv` | checkpoint-level control separations |
+| `data/joint_subspace_composition.csv` | rank-4/complement composition decomposition |
+| `data/joint_subspace_dynamics.csv` | rank-4/complement dynamic error descriptors |
+| `data/joint_patch_geometry_units.csv` | unit-level full-patch geometry |
+| `data/joint_patch_geometry.csv` | geometry with matched behavioral context |
+| `expected/corrected_joint_summary.json` | frozen public headline summary |
+
+`data/SOURCE_MANIFEST.json` binds each export by SHA256, row count, identity contract, and scientific role. The repository-level `ARTIFACT_MANIFEST.json` additionally binds the complete package, scripts, tests, and figure-source data.
+
+## Claim boundary
+
+- Rank 4 remains the smallest passing tested rank for the original single-component registered grid; it is not an intrinsic-state dimension claim.
+- The corrected Joint extension is limited to same-object two-component velocity requests and checkpoint-specific fits.
+- The same procedure across checkpoints does not mean the raw hidden bases are shared.
+- M1 already has strong unseen-Joint competence; M2 mainly improves rollout fidelity and descriptive specificity.
+- Composition improves at the family level with checkpoint overlap and is distributed across the rank-4 carrier and its complement.
+- A compact intervention-entry carrier is not a closed four-dimensional recurrent trajectory model.
+- Position editing remains a negative specificity contrast.
+
+These are post-submission replicated and mechanistic analyses, not preregistered confirmatory results.

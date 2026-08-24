@@ -1,0 +1,46 @@
+{
+  "checkpoint_counts": {
+    "addressability": 6,
+    "joint_behavior": 9,
+    "static_composition": 9
+  },
+  "claim_boundary": {
+    "joint_extension": "Bounded to same-object two-component velocity requests using the same Single-derived, Single-only-addressed construction fitted separately per checkpoint.",
+    "main": "A checkpoint-specific rank-4 dynamics-effective carrier forms a compact, addressable counterfactual intervention interface for the tested velocity-edit regime.",
+    "mechanistic_boundary": "Compact intervention entry does not imply closed four-dimensional recurrent trajectory dynamics."
+  },
+  "counts": {
+    "addressability_rows": 606,
+    "canonical_units": 512,
+    "fit_units": 411,
+    "specificity_control_rows": 2424,
+    "test_units": 101
+  },
+  "family_medians": {
+    "M0": {
+      "E_add": 0.8580403092062596,
+      "E_dyn12": 0.2931273033570621,
+      "anchor_rmse": 0.05961528233331903,
+      "joint_coverage": 0.880859375,
+      "k1_rmse": 0.058045855689517936,
+      "t19_rmse": 0.1794064619739627
+    },
+    "M1": {
+      "E_add": 0.6236036695975767,
+      "E_dyn12": 0.2290687025415209,
+      "anchor_rmse": 0.028365727519458553,
+      "joint_coverage": 0.95703125,
+      "k1_rmse": 0.03817022006910549,
+      "t19_rmse": 0.12976825358918517
+    },
+    "M2": {
+      "E_add": 0.49511909343852467,
+      "E_dyn12": 0.21777711764048482,
+      "anchor_rmse": 0.014488367886492355,
+      "joint_coverage": 0.9609375,
+      "k1_rmse": 0.026678492318310647,
+      "t19_rmse": 0.049844653204786406
+    }
+  },
+  "schema_version": "corrected-joint-summary-v1"
+}
