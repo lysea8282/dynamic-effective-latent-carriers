@@ -521,8 +521,8 @@
         "artifact verification"
       ],
       "path": "experiments/joint_velocity_composition/data/SOURCE_MANIFEST.json",
-      "sha256": "773FFEE856921FB082052207B6BBF69CB1FE4467C43F96D221F4473B4C00BAB8",
-      "size_bytes": 4311,
+      "sha256": "8EBBE1B16269A9B8B1E3FBE703F3CF56F6FE39A0DCC0DA5BDE390FED87428E75",
+      "size_bytes": 4218,
       "type": "corrected expected result or source manifest"
     },
     {
@@ -661,8 +661,8 @@
         "artifact verification"
       ],
       "path": "experiments/joint_velocity_composition/expected/corrected_joint_summary.json",
-      "sha256": "FAD74EB6A08157E6577E285415B936825E408FB3C73C7588CC53B9F792077D51",
-      "size_bytes": 1645,
+      "sha256": "053DDD41DD7FDE08B4504D8F34BAC13D4105E1B86CE3581692CAED4BDFEA05DD",
+      "size_bytes": 1599,
       "type": "corrected expected result or source manifest"
     },
     {

@@ -83,7 +83,7 @@
       "path": "expected/corrected_joint_summary.json",
       "role": "Frozen expected output for corrected public summary reproduction.",
       "rows": 1,
-      "sha256": "FAD74EB6A08157E6577E285415B936825E408FB3C73C7588CC53B9F792077D51"
+      "sha256": "053DDD41DD7FDE08B4504D8F34BAC13D4105E1B86CE3581692CAED4BDFEA05DD"
     }
   ],
   "identity_rule": "All unit-level joins are keyed by explicit identity; public unit labels are deterministic hashes of canonical source identities.",
