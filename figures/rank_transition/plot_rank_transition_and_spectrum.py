@@ -164,7 +164,7 @@ def make_figure(data: dict[str, Any]) -> plt.Figure:
         markerfacecolor="white",
         markeredgewidth=1.25,
         linestyle="-",
-        label="Addressable operator",
+        label="Addressable rollout",
         zorder=4,
     )
     ax.plot(

@@ -10,7 +10,7 @@ The confirmatory core also includes fresh-checkpoint replication, temporal reuse
 
 ## Corrected Joint extension
 
-The post-submission replicated extension evaluates simultaneous two-component velocity requests on the same object. After correcting a source-identity alignment error, the same Single-derived, Single-only-addressed construction—fitted separately for each checkpoint—shows bounded Joint addressability. M1 already shows strong unseen-Joint competence; M2 mainly improves rollout fidelity and descriptive target specificity. Corrected native Joint responses become more compositional from M0 to M1 to M2 at the family-median level, with overlap among checkpoint results.
+The post-submission replicated extension evaluates simultaneous two-component velocity requests on the same object. After correcting a source-identity alignment error, the same Single-derived, Single-only-addressed construction—fitted separately for each checkpoint—shows bounded Joint addressability. MF1 already shows strong unseen-Joint competence; MF2 mainly improves rollout fidelity and descriptive target specificity. Corrected native Joint responses become more compositional from MF0 to MF1 to MF2 at the family-median level, with overlap among checkpoint results.
 
 The corrected checkpoint-level and unit-level exports, identity-keyed semantic test, and summary reproduction live in [`experiments/joint_velocity_composition/`](experiments/joint_velocity_composition/). See [`REVISION_NOTE.md`](REVISION_NOTE.md) for the correction scope.
 

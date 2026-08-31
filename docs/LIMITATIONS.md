@@ -12,11 +12,11 @@ The results concern a packaged deterministic two-object collision simulator, the
 
 - The extension is bounded to same-object, simultaneous two-component velocity requests.
 - Addressability uses the same Single-derived, Single-only-addressed construction; no Joint-specific mapper is fitted.
-- Corrected family-median composition and fidelity improve from M0 to M1 to M2, but checkpoint values overlap. The results do not support strict checkpoint-wise monotonicity.
-- M1 already has strong unseen-Joint competence; M2 mainly improves rollout fidelity and descriptive target specificity.
+- Corrected family-median composition and fidelity improve from MF0 to MF1 to MF2, but checkpoint values overlap. The results do not support strict checkpoint-wise monotonicity.
+- MF1 already has strong unseen-Joint competence; MF2 mainly improves rollout fidelity and descriptive target specificity.
 - Composition-relevant error changes in both the rank-4 carrier and its complement. Improvement is not localized only to the carrier.
 - Training-support comparisons are associative and bounded to this model/intervention setting. They do not establish a universal causal law or intervention algebra.
-- Better M2 addressable behavior does not require closer hidden-space matching to the particular projected native-Joint oracle used here. Geometric closeness is not a sufficient proxy for dynamics-effective addressability.
+- Better MF2 addressable behavior does not require closer hidden-space matching to the particular projected native-Joint oracle used here. Geometric closeness is not a sufficient proxy for dynamics-effective addressability.
 
 The Joint behavior, composition, addressability, specificity, and mechanistic analyses are post-submission replicated/diagnostic extensions, not preregistered confirmatory results.
 

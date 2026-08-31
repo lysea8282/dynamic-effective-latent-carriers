@@ -230,7 +230,7 @@ def build_figure(data: dict[str, Any]) -> plt.Figure:
 
     ax = axes[1]
     style_axis(ax)
-    panel_heading(ax, "(b) Frozen-t=7 transport", "same carrier/operator; no refit")
+    panel_heading(ax, "(b) Frozen-t=7 transport", "exact t=7 interface; no target refit")
     b2_counts = [data["counts"][B2_ASSAY][anchor] for anchor in B2_TARGETS]
     ax.bar(
         B2_TARGETS,
@@ -306,7 +306,7 @@ def main() -> int:
         facecolor="white",
         edgecolor="none",
         metadata={
-            "Title": "Temporal robustness of rank-4 effective-state carriers",
+            "Title": "Temporal recoverability and direct reuse of the rank-4 intervention interface",
             "Software": f"Matplotlib {matplotlib.__version__}",
         },
     )
@@ -315,7 +315,7 @@ def main() -> int:
         facecolor="white",
         edgecolor="none",
         metadata={
-            "Title": "Temporal robustness of rank-4 effective-state carriers",
+            "Title": "Temporal recoverability and direct reuse of the rank-4 intervention interface",
             "Subject": "Paper 1 Section 5.4 manuscript figure",
             "Creator": f"Matplotlib {matplotlib.__version__}",
             "CreationDate": None,
